@@ -1,0 +1,260 @@
+/* 头部 */
+#head {
+	width: 1349px;
+	height: 36px;
+	background: #f9f9f9;
+	position: relative;
+	//头部左边
+	.leftBox {
+		float: left;
+		margin-left: 75px;
+		li {
+			float: left;
+			padding: 6px 0;
+			a {
+				padding: 0 8px;
+				line-height: 24px;
+				&:hover{
+					color: red;
+				}
+			}
+			span {
+				display: inline-block;
+				height: 10px;
+				width: 1px;
+				background: #d3d3d3;
+			}
+		}
+	}
+	//头部右边
+	.rightBox {
+		float: right;
+		margin-right: 75px;
+		li {
+			float: left;
+			padding: 6px 0;
+			a {
+				padding: 0 8px;
+				line-height: 24px;
+				&:hover{
+					color: red;
+				}
+			}
+			span {
+				display: inline-block;
+				height: 10px;
+				width: 1px;
+				background: #d3d3d3;
+			}
+		}
+		.colorCat {
+			background: #f2f2f2;
+			i{
+				margin-right: 5px;
+				color: red;
+			}
+			
+		}
+	}
+	//下拉列表重复样式
+	@mixin listStyle{
+		background: white;
+		position: absolute;
+		top: 36px;
+		padding-top: 7px;
+		border-bottom-right-radius: 5px;
+		border-bottom-left-radius: 5px;
+		display: none;
+	}
+	@mixin list-a{
+		display: block;
+		text-align: center;
+		line-height: 32px;
+		font-size: 12px;
+		color: #777777;
+	}
+	.pull-down-list1{
+		width: 120px;
+		height: 140px;
+		left:535px;
+		z-index: 100;
+		@include listStyle;
+		a{
+			@include list-a; 
+		}
+	}
+	.pull-down-list2{
+		width: 80px;
+		height: 82px;
+		left:950px;
+		z-index: 100;
+		@include listStyle;
+		a{
+			@include list-a;
+		}
+	}
+	.pull-down-list3{
+		width: 893px;
+		height: 142px;
+		left: 222px;
+		z-index: 100;
+		@include listStyle;
+		div{
+			width: 145px;
+			float: left;
+			padding-top: 32px;
+			p{
+				width: 50px;
+				height: 50px;
+				background: #f7f7f7;
+				border-radius: 25px;
+				text-align: center;
+				line-height: 50px;
+				i{
+					font-size: 25px;
+					color: #b9bdc9;
+				}
+			}
+			a{
+				display: block;
+				margin-top: 7px;
+			}
+		}
+		ul{
+			float: left;
+			li{
+				width: 185px;
+				float: left;
+				h2{
+					font-size: 16px;
+					color: #333333;
+					font-weight: bold;
+					line-height: 34px;
+					margin-top: 15px;
+				}
+				a{
+					float: left;
+					width: 80px;
+					line-height: 24px;
+				}
+			}
+		}
+	}
+	.pull-down-list4{
+		width: 244px;
+		height: 390px;
+		position: absolute;
+		top: 36px;
+		left:950px;
+		display: none;
+		z-index: 100;
+		div{
+			height: 131px;
+			border: 1px solid #e5e5e5;
+		}
+	}
+	.pull-down-list5{
+		width: 480px;
+		position: absolute;
+		top: 36px;
+		left: 795px;
+		padding: 50px 0;
+		display: none;
+		background: white;
+		z-index: 100;
+		h5{
+			text-align: center ;
+			margin-top: 16px;
+		}
+		p{
+			width: 100px;
+			height: 100px;
+			background: #f7f7f7;
+			border-radius: 50px;
+			text-align: center;
+			line-height: 100px;
+			margin-left: 180px;
+			i{
+				font-size: 50px;
+				color: #b9bdc9;
+			}
+		}
+	}
+	
+	#indexNav{
+		width: 1199px;
+		height: 74px;
+		padding:0 75px;
+		 div{
+			 float: left;
+			 a{ 
+			 	line-height: 74px;
+			 }
+		 }
+		ul{
+			float: left;
+			
+			margin: 20px 0 0 32px;
+			li{
+				line-height: 24px;
+				float: left;
+				border-radius:12px;
+				padding: 0 5px;
+				margin: 0 12px;
+				&:nth-child(1){
+					background: #ff8486;
+					a{
+						color: white;
+					}
+				}
+				&:nth-child(2){
+					background: #74c7ff;
+					a{
+						color: white;
+					}
+				}
+				a{
+					font-size: 14px;
+					color: black;
+				}
+				 
+			}
+		}
+		p{
+			float: left;
+			width: 290px;
+			height: 30px;
+			border-radius: 15px;
+			background: #f0f0f0;
+			margin: 16px 49px;
+			padding:0 15px;
+			input{
+				line-height: 30px;
+				float: left;
+				border: 0;
+				width: 120px;
+				background: #f0f0f0;
+				height: 30px;
+				box-sizing: border-box;
+			}
+			a{
+				line-height: 30px;
+				float:left;
+				color: red;
+				padding: 0 5px;
+			}
+			i{
+				line-height: 30px;
+				float: left;
+				font-size: 18px;
+				color: black;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+
+
+
+
+ 

@@ -1,0 +1,35 @@
+body {
+    background-color: #F6F6F6;
+}
+
+.addressbar{
+	width: 1200px;
+	margin-top: 20px;
+	margin-left: 54px;
+	background: #fff;
+	/* padding-top: 65px;
+	padding-left: 40px; */
+}
+
+.addressbar .address .shouhuo{
+	position: relative;
+	top: 6px;
+	left: 40px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.addressbar .addaddress{
+	width: 358px;
+	height: 100%;
+	border: 1px solid #eaeaea;
+	font-size: 14px;
+	text-align: center;
+    color: #3a3a3a;
+   /* text-indent: 8px; */
+	display: block;
+	line-height: 120px;
+	margin-left: 40px;
+	margin-top: 21px;
+	cursor: pointer;
+}

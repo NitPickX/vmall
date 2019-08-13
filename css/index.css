@@ -1,0 +1,514 @@
+#banner {
+  width: 1349px;
+  height: 605px;
+  position: relative;
+}
+#banner .swiper-slide {
+  width: 1349px;
+  height: 605px;
+}
+#banner .swiper-slide img {
+  width: 1349px;
+  height: 550px;
+  border-bottom-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+}
+#banner .swiper-pagination {
+  text-align: right;
+  position: absolute;
+  left: -50px;
+  bottom: 100px;
+}
+#banner .swiper-pagination span {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+#banner .swiper-pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
+#banner .swiper-button-next {
+  width: 56px;
+  height: 56px;
+  top: 40%;
+  left: 1215px;
+  border-radius: 50%;
+  background: url(../image/bannerNext02.jpg) no-repeat;
+  opacity: 0.3;
+}
+#banner .swiper-button-next:hover {
+  opacity: 1;
+}
+#banner .swiper-button-prev {
+  width: 56px;
+  height: 56px;
+  top: 40%;
+  left: 290px;
+  border-radius: 50%;
+  background: url(../image/bannerPre02.jpg) no-repeat;
+  opacity: 0.3;
+}
+#banner .swiper-button-prev:hover {
+  opacity: 1;
+}
+
+#banner .bannerNav {
+  width: 1200px;
+  height: 88px;
+  position: absolute;
+  bottom: 0;
+  left: 75px;
+  z-index: 1;
+  background: white;
+  border-radius: 10px;
+}
+#banner .bannerNav .leftBox {
+  float: left;
+  width: 270px;
+  height: 55px;
+  border-right: 1px solid #ccc;
+  margin-top: 16px;
+}
+#banner .bannerNav .leftBox .headImg {
+  float: left;
+  width: 95px;
+  height: 10px;
+  text-align: center;
+}
+#banner .bannerNav .leftBox .login2 {
+  float: left;
+  color: #999999;
+}
+#banner .bannerNav .leftBox .login2 p {
+  line-height: 22px;
+}
+#banner .bannerNav .leftBox .login2 h3 a:nth-child(1) {
+  display: inline-block;
+  width: 66px;
+  line-height: 20px;
+  margin-right: 5px;
+  border: 1px solid red;
+  color: red;
+  text-align: center;
+  border-radius: 5px;
+}
+#banner .bannerNav .leftBox .login2 h3 a:nth-child(2) {
+  display: inline-block;
+  width: 68px;
+  line-height: 22px;
+  margin-right: 5px;
+  background: #595454;
+  color: #dea554;
+  text-align: center;
+  border-radius: 5px;
+}
+#banner .bannerNav .centerBox {
+  float: left;
+  width: 660px;
+  border-right: 1px solid #ccc;
+  margin-top: 16px;
+}
+#banner .bannerNav .centerBox a {
+  float: left;
+  width: 110px;
+  text-align: center;
+}
+#banner .bannerNav .centerBox a img {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin-left: 37px;
+}
+#banner .bannerNav .centerBox a:nth-child(1) img {
+  background: url(../image/bannerNav.png) no-repeat;
+  background-size: cover;
+}
+#banner .bannerNav .centerBox a:nth-child(2) img {
+  background: url(../image/bannerNav.png) no-repeat -36px center;
+  background-size: cover;
+}
+#banner .bannerNav .centerBox a:nth-child(3) img {
+  background: url(../image/bannerNav.png) no-repeat -72px center;
+  background-size: cover;
+}
+#banner .bannerNav .centerBox a:nth-child(4) img {
+  background: url(../image/bannerNav.png) no-repeat -108px center;
+  background-size: cover;
+}
+#banner .bannerNav .centerBox a:nth-child(5) img {
+  background: url(../image/bannerNav.png) no-repeat -144px center;
+  background-size: cover;
+}
+#banner .bannerNav .centerBox a:nth-child(6) img {
+  background: url(../image/bannerNav.png) no-repeat -180px center;
+  background-size: cover;
+}
+#banner .bannerNav .rightBox {
+  width: 268px;
+  height: 88px;
+  float: left;
+}
+#banner .bannerNav .rightBox .notice {
+  height: 43px;
+  border-bottom: 1px solid #ccc;
+}
+#banner .bannerNav .rightBox .notice span {
+  float: left;
+  width: 54px;
+  line-height: 43px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #777777;
+}
+#banner .bannerNav .rightBox .notice #notBanner {
+  height: 43px;
+  width: 200px;
+  float: left;
+  overflow: hidden;
+}
+#banner .bannerNav .rightBox .notice #notBanner .swiper-slide {
+  width: 200px;
+  height: 43px;
+}
+#banner .bannerNav .rightBox .notice #notBanner .swiper-slide a {
+  display: block;
+  line-height: 43px;
+}
+#banner .bannerNav .rightBox .bottBox a {
+  float: left;
+  width: 88px;
+  text-align: center;
+  line-height: 18px;
+  margin-top: 13px;
+}
+#banner .bannerNav .rightBox .bottBox a span {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+#banner .bannerNav .rightBox .bottBox a:nth-child(1) span {
+  background: url(../image/bannerNav2.jpg) no-repeat 0px 3px;
+  background-size: cover;
+}
+#banner .bannerNav .rightBox .bottBox a:nth-child(2) span {
+  background: url(../image/bannerNav2.jpg) no-repeat -17px 3px;
+  background-size: cover;
+}
+#banner .bannerNav .rightBox .bottBox a:nth-child(3) span {
+  background: url(../image/bannerNav2.jpg) no-repeat -34px 3px;
+  background-size: cover;
+}
+#banner .bannerLeftNav {
+  width: 200px;
+  height: 440px;
+  position: absolute;
+  background: white;
+  color: #848484;
+  left: 75px;
+  top: 18px;
+  z-index: 10;
+}
+#banner .bannerLeftNav li {
+  width: 150px;
+  height: 73px;
+  background: #f2f3f4;
+  padding: 0 25px;
+}
+#banner .bannerLeftNav li:nth-child(6) p {
+  border-bottom: 0;
+}
+#banner .bannerLeftNav li h2 a {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 10px;
+}
+#banner .bannerLeftNav li p {
+  border-bottom: 1px solid #ccc;
+}
+#banner .bannerLeftNav li p a {
+  display: inline-block;
+  line-height: 24px;
+  margin-right: 12px;
+  padding-bottom: 10px;
+}
+#banner .bannerRightNav {
+  height: 404px;
+  position: absolute;
+  top: 18px;
+  left: 275px;
+  z-index: 10;
+  background: white;
+  padding: 36px 50px 0 40px;
+  display: none;
+}
+#banner .bannerRightNav div {
+  float: left;
+  height: 440px;
+}
+#banner .bannerRightNav div a {
+  display: block;
+  width: 206px;
+  height: 105px;
+}
+#banner .bannerRightNav div a img {
+  width: 46px;
+  height: 56px;
+  float: left;
+}
+#banner .bannerRightNav div a span {
+  float: left;
+  line-height: 56px;
+  margin-left: 12px;
+}
+#banner .bannerRightNav div button {
+  width: 133px;
+  height: 42px;
+  border: 1px solid #ccc;
+}
+
+#indexContent {
+  width: 1274px;
+  background: #ffffff;
+  padding-left: 75px;
+}
+#indexContent .indContHead {
+  width: 1200px;
+  height: 200px;
+  margin-top: 18px;
+}
+#indexContent .indContHead img {
+  float: left;
+  width: 290px;
+  height: 200px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+#indexContent .hotProducts {
+  height: 644px;
+  width: 1200px;
+  margin-top: 28px;
+}
+#indexContent .hotProducts h1 {
+  font-size: 24px;
+  line-height: 52px;
+}
+#indexContent .hotProducts .products .leftBox {
+  width: 230px;
+  height: 592px;
+  float: left;
+  margin-right: 12px;
+}
+#indexContent .hotProducts .products .leftBox a {
+  display: block;
+  width: 230px;
+  height: 592px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+#indexContent .hotProducts .products .rightBox {
+  float: left;
+  width: 956px;
+}
+#indexContent .hotProducts .products .rightBox a {
+  display: block;
+  height: 290px;
+  width: 230px;
+  background: #f9f9f9;
+  text-align: center;
+  float: left;
+  margin-right: 9px;
+}
+#indexContent .hotProducts .products .rightBox a h1 {
+  width: 42px;
+  height: 22px;
+  font-size: 12px;
+  background: #68beff;
+  color: white;
+  text-align: center;
+  line-height: 22px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: auto;
+}
+#indexContent .hotProducts .products .rightBox a img {
+  width: 120px;
+  height: 146px;
+  margin-top: 15px;
+}
+#indexContent .hotProducts .products .rightBox a h2 {
+  font-size: 14px;
+  color: #3a3a3a;
+  margin-top: 18px;
+}
+#indexContent .hotProducts .products .rightBox a h3 {
+  font-size: 12px;
+  color: #777777;
+  margin-top: 8px;
+}
+#indexContent .hotProducts .products .rightBox a h4 {
+  font-size: 14px;
+  color: red;
+  margin-top: 16px;
+}
+#indexContent .recommendation h1 {
+  font-size: 24px;
+  line-height: 52px;
+  margin-top: 28px;
+}
+#indexContent .recommendation #indexBanner2 {
+  height: 300px;
+  width: 1200px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide {
+  width: 1200px;
+  height: 300px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a {
+  float: left;
+  width: 230px;
+  height: 300px;
+  margin-right: 10px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a h3 {
+  height: 206px;
+  text-align: center;
+  margin-top: 42px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a h3 img {
+  width: 150px;
+  height: 150px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a h3 p {
+  line-height: 36px;
+  margin-top: 17px;
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a h4 {
+  text-align: center;
+  line-height: 36px;
+}
+#indexContent .recommendation #indexBanner2 .swiper-slide a h5 {
+  text-align: center;
+  color: red;
+}
+#indexContent .phone h1 {
+  height: 52px;
+  margin-top: 28px;
+}
+#indexContent .phone h1 div {
+  line-height: 52px;
+  font-size: 24px;
+  float: left;
+}
+#indexContent .phone h1 ul {
+  line-height: 52px;
+  float: left;
+  margin-left: 20px;
+}
+#indexContent .phone h1 ul li {
+  float: left;
+  font-size: 12px;
+  padding: 0 12px;
+}
+#indexContent .phone h1 span {
+  float: right;
+  font-size: 12px;
+  line-height: 52px;
+  margin-right: 75px;
+}
+#indexContent .phone h1 span a {
+  color: black;
+}
+#indexContent .phone h1 a:hover {
+  color: red;
+}
+#indexContent .phone .phoProducts {
+  width: 1200px;
+  height: 892px;
+}
+#indexContent .phone .phoProducts a {
+  display: block;
+  height: 290px;
+  width: 230px;
+  background: #f9f9f9;
+  text-align: center;
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 12px;
+}
+#indexContent .phone .phoProducts a:nth-child(1) img {
+  height: 290px;
+  width: 230px;
+  margin-top: 0;
+}
+#indexContent .phone .phoProducts a h5 {
+  height: 36px;
+  text-align: center;
+}
+#indexContent .phone .phoProducts a h5 span {
+  display: inline-block;
+  padding: 0px 8px;
+  background: red;
+  color: white;
+  line-height: 22px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#indexContent .phone .phoProducts a img {
+  width: 120px;
+  height: 146px;
+}
+#indexContent .phone .phoProducts a h2 {
+  font-size: 14px;
+  color: #3a3a3a;
+  margin-top: 18px;
+}
+#indexContent .phone .phoProducts a h3 {
+  font-size: 12px;
+  color: #777777;
+  margin-top: 8px;
+}
+#indexContent .phone .phoProducts a h4 {
+  font-size: 14px;
+  color: red;
+  margin-top: 16px;
+}
+
+#sideBar {
+  width: 48px;
+  height: 160px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: white;
+}
+#sideBar li {
+  position: relative;
+}
+#sideBar li a {
+  display: block;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#sideBar li a i {
+  font-size: 20px;
+}
+#sideBar li p {
+  position: absolute;
+  width: 80px;
+  top: 0;
+  right: 40px;
+  line-height: 40px;
+  background: white;
+  text-align: center;
+  display: none;
+}
+#sideBar li:hover > p {
+  display: block;
+}

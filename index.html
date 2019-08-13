@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>华为首页</title>
+
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
+		<link rel="stylesheet" href="font/iconfont.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/qg.css">
+		
+	</head>
+	<body>
+		<!-- 购物车 -->
+		<div class="content">
+			<div class="ewmyc">
+				<img src="img/ewm1.jpg" class="hgewm">
+				<img src="img/py.jpg" class="ydpy">
+				<p>使用 <b> 华为移动服务app</b>扫一扫</p>
+				<span>若您使用华为手机,请进入"设置">"华为账号"扫码登录</span>
+			</div>
+			<div class="tuo"><a href="#" class="closer">x</a></div>
+			<div class="change">
+				<a href="#" class="userone" style="color:#a51b1b;">账号登录</a>
+				<span>|</span>
+				<a href="#" class="ewm">扫码登录</a>
+			</div>
+			<div class="zhuti">
+				<span class="wrg"><img src="img/qqj.png" alt=""> 华为帐号限制在4~15 个字符</span>
+				<input type="text" class="put" id="phnum" placeholder="手机号/邮件地址/华为号">
+				<input type="password" class="put" id="psw" placeholder="密码">
+				<a href="" class="fontone"><img src="img/213_03.jpg" alt=""> 短信验证码登录</a>
+				<button style="display:block" class="login">登录</button>
+				<div class="huawei"><input type="checkbox">记住华为账号<a href="" class="more">更多</a></div>
+				<div class="zhong"><a href="regist.html">注册账号</a>|<a href="">忘记密码?</a></div>
+				<div class="jjdb">-其他方式登录 -</div>
+				<a href="" class="anniu"><img src="img/qq.jpg" alt=""></a>
+				<a href="" class="anniu"><img src="img/zfb.jpg" alt=""></a>
+				<a href="" class="anniu"><img src="img/wx.jpg" alt=""></a>
+			</div>
+			<div class="fd">继续访问即代表您已同意<a href="">华为商城服务协议</a> 和<a href=""> 华为隐私政策</a> </div>
+		</div>
+
+		<!-- 头部 -->
+		<div id="head"></div>
+
+		<!-- 轮播图 -->
+		<div class="swiper-container" id="banner">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="image/banner1.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/banner2.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/banner1.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/banner2.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/banner1.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="image/banner2.jpg" alt="">
+				</div>
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+
+			<!-- 如果需要导航按钮 -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+
+			<!-- banner图下面的导航 -->
+			<div class="bannerNav">
+				<div class="leftBox">
+					<div class="headImg">
+						<img src="image/imgs/people.jpg" alt="">
+					</div>
+					<div class="login2">
+						<p> <span>您好，请!</span> <a href="#">登录</a>/ <a href="#">注册</a></p>
+						<h3>
+							<a href="">新人福利</a>
+							<a href="">会员频道</a>
+						</h3>
+					</div>
+				</div>
+				<div class="centerBox">
+					<a href="">
+						<img src="" alt="">
+						<span>企业购特惠</span>
+					</a>
+					<a href="">
+						<img src="" alt="">
+						<span>会员领劵</span>
+					</a>
+					<a href="">
+						<img src="" alt="">
+						<span>以旧换新</span>
+					</a>
+					<a href="">
+						<img src="" alt="">
+						<span>企业购特惠</span>
+					</a>
+					<a href="">
+						<img src="" alt="">
+						<span>nova&nbsp;5系列</span>
+					</a>
+					<a href="">
+						<img src="" alt="">
+						<span>华为数码</span>
+					</a>
+				</div>
+				<div class="rightBox">
+					<div class="notice">
+						<span>公告</span>
+						<div class="swiper-container" id="notBanner">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="#">华为学生专场&nbsp;领劵最高减100</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">华为学生专场&nbsp;领劵最高减200</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">华为学生专场&nbsp;领劵最高减300</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="#">华为学生专场&nbsp;领劵最高减400</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="bottBox clearfix">
+						<a href=""><span></span>优购码</a>
+						<a href=""><span></span>实名认证</a>
+						<a href=""><span></span>补购保障</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- banner图左边的2级导航 -->
+			<ul class="bannerLeftNav">
+				<!-- <li>
+						<h2><a href="#">手机</a></h2>
+						<p>
+							<a href="">荣耀</a>
+							<a href="">HUAWEI&nbsp;P系列</a>
+						</p>
+					</li> -->
+			</ul>
+			<div class="bannerRightNav">
+				<div class="box1">
+					<!-- <a>
+						<img src="image/a1.png" alt="">
+						<span>荣耀</span>
+					</a> -->
+				</div>
+				<div class="box2"></div>
+				<div class="box3"></div>
+				<div class="box4"></div>
+			</div>
+		</div>
+
+		<!-- index页面内容 -->
+		<div id="indexContent">
+			<!-- index页面内容顶部图片-->
+			<div class="indContHead">
+				<!-- <a href=""><img src="image/imgs/xm1.png" alt=""></a> -->
+			</div>
+			<!-- 热销单品 -->
+			<div class="hotProducts">
+				<h1>热销单品</h1>
+				<div class="products">
+					<div class="leftBox">
+						<a href=""><img src="image/imgs/xm5.png" alt=""></a>
+					</div>
+					<div class="rightBox">
+						<!-- <a href="">
+							<h1>新品</h1>
+							<img src="image/imgs/xm6.png" alt="">
+							<h2>荣耀20 pro</h2>
+							<h3>享多重好礼</h3>
+							<h4>￥3999</h4>
+						</a> -->
+
+					</div>
+				</div>
+			</div>
+
+			<!-- 精品推荐 -->
+			<div class="recommendation">
+				<h1>精品推荐</h1>
+				<!-- index页面轮播图2 -->
+				<div class="swiper-container" id="indexBanner2">
+
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<!-- <a href="">
+									<h3>
+										<img src="image/imgs/xm14.png" alt="">
+										<p>稀缺货源，享3期免息</p>
+									</h3>
+									<h4>华为平板</h4>
+									<h5>￥3999</h5>
+								</a> -->
+						</div>
+						<div class="swiper-slide"></div>
+					</div>
+
+					<!-- 如果需要导航按钮 -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+
+			<!-- 手机 -->
+			<div class="phone">
+				<h1>
+					<div>手机</div>
+					<ul>
+						<li><a href="">HUWEI&nbsp;MATE系列</a></li>
+						<li><a href="">荣耀</a></li>
+						<li><a href="">HUWEI&nbsp;P系列</a></li>
+						<li><a href="">华为荣耀系列</a></li>
+						<li><a href="">HUWEI&nbsp;nova系列</a></li>
+						<li><a href="">华为畅享系列</a></li>
+						<li><a href="">HUWEI&nbsp;麦芒系列</a></li>
+						<li><a href="">移动4G+专区</a></li>
+					</ul>
+					<span><a href="computer.html">查看更多</a></span>
+				</h1>
+				<div class="phoProducts">
+					<!-- <a href="">
+						 <img src="image/imgs/shou1.png" alt="">
+					</a>
+					<a href="#">
+						<h5><span>新品xinping </span></h5>
+						<img src="image/imgs/shou2.png" alt="">
+						<h2>荣耀20 pro</h2>
+						<h3>享多重好礼</h3>
+						<h4>￥3999</h4>
+					</a> -->
+
+				</div>
+			</div>
+
+		</div>
+
+		<!-- 固定侧栏 -->
+		<ul id="sideBar">
+			<li>
+				<p>购物车</p>
+				<a href=""><i class="iconfont icon-gouwuche"></i></a>
+			</li>
+			<li>
+				<p>在线客服</p>
+				<a href=""><i class="iconfont icon-zaixiankefu"></i></a>
+			</li>
+			<li>
+				<p>意见反馈</p>
+				<a href=""><i class="iconfont icon-yijianfankui"></i></a </li> <li>
+				<p>返回顶部</p>
+				<a href="#head"><i class="iconfont icon-jiantouXia"></i></a>
+			</li>
+		</ul>
+
+		<!-- 尾部 -->
+		<div id="foot"></div>
+
+		<script src="js/swiper.min.js"></script>
+		<script src="js/require.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/ajax.js"></script>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery-1.8.3.js"></script>
+
+		<script>
+			var drag = document.querySelector('.content')
+			var tuo = document.querySelector('.tuo')
+			window.onload = function() {
+				tuo.onmousedown = function(event) {
+					var event = event || window.event;
+					var diffX = event.clientX - drag.offsetLeft;
+					var diffY = event.clientY - drag.offsetTop;
+					if (typeof drag.setCapture !== 'undefined') {
+						drag.setCapture();
+					}
+					tuo.onmousemove = function(event) {
+						var event = event || window.event;
+						var moveX = event.clientX - diffX;
+						var moveY = event.clientY - diffY;
+						if (moveX < 0) {
+							moveX = 0
+						} else if (moveX > window.innerWidth - drag.offsetWidth) {
+							moveX = window.innerWidth - drag.offsetWidth
+						}
+						if (moveY < 0) {
+							moveY = 0
+						} else if (moveY > window.innerHeight - drag.offsetHeight) {
+							moveY = window.innerHeight - drag.offsetHeight
+						}
+						drag.style.left = moveX + 'px';
+						drag.style.top = moveY + 'px'
+						
+						window.getSelection?window.getSelection().removeAllRanges():document.selection.empty();
+					}
+					tuo.onmouseup = function(event) {
+						this.onmousemove = null;
+						this.onmouseup = null;
+
+						if (typeof drag.releaseCapture != 'undefined') {
+							drag.releaseCapture();
+						}
+					}
+				}
+
+			};
+			var login = document.querySelector('.login')
+			var psw = document.querySelector('#psw')
+			var phnum = document.querySelector('#phnum')
+			var wrg = document.querySelector('.wrg')
+			var userone = document.querySelector('.userone')
+			var ewm = document.querySelector('.ewm');
+			var zhuti = document.querySelector('.zhuti')
+			var ewmyc = document.querySelector('.ewmyc')
+			var hgewm = document.querySelector('.hgewm')
+			var ydpy = document.querySelector('.ydpy')
+			
+			login.onclick = function() {
+				var username = phnum.value; //必须得在内部获取值，否则事件进行了获取不到值
+				var userpass = psw.value;
+				if (phnum.value.length > 4 || phnum.value.length < 15) {
+					ajax({
+						url: 'data/login2.php',
+						type: 'get',
+						data: 'act=login&user=' + username + '&pass=' + userpass,
+						success: function(data) {
+							var json = JSON.parse(data);
+							if(json.err == 0){
+								var head = document.querySelectorAll('#head .rightBox li a')[0];
+								drag.style.display = "none";
+								localStorage.setItem('usNa',JSON.stringify(phnum.value));
+								head.innerHTML = phnum.value ;
+								head.style.color = "red";
+							}else{
+								alert("用户名或者密码错误")
+							}
+							
+						},
+						failed: function(code) {
+							alert('错误' + code);
+						}
+					})
+				}
+
+			};
+			phnum.onblur = function() {
+				if (phnum.value.length < 4 || phnum.value.length > 15) {
+					wrg.style.cssText = 'display:block;'
+					phnum.style.cssText = 'border-bottom:1px solid red'
+				} else {
+					wrg.style.cssText = 'display:none;'
+					phnum.style.cssText = 'border-bottom:1px solid black'
+				}
+			};
+			userone.onclick = function() {
+				zhuti.style.cssText = 'display:block;'
+				userone.style.cssText = 'color:#a51b1b;'
+				ewm.style.cssText = 'color:black;'
+				ewmyc.style.cssText = 'display:none;'
+			}
+			ewm.onclick = function() {
+				zhuti.style.cssText = 'display:none;'
+				ewm.style.cssText = 'color:#a51b1b;'
+				userone.style.cssText = 'color:black;'
+				ewmyc.style.cssText = 'display:block;'
+			};
+			$('.hgewm').mousemove(function() {
+				$(this).addClass('aa')
+				$('.ydpy').addClass('bb')
+				$('.ydpy').removeClass('cc')
+				$(this).removeClass('dd')
+			})
+			$('.hgewm').mouseleave(function() {
+				$(this).removeClass('aa')
+				$('.ydpy').removeClass('bb')
+				$('.ydpy').addClass('cc')
+				$(this).addClass('dd')
+			})
+			var closer = document.querySelector('.closer')
+			closer.onclick = function() {
+				drag.style.cssText = 'display:none'
+			}
+			//关闭
+		</script>
+
+	</body>
+</html>

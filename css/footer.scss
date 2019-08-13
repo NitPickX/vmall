@@ -1,0 +1,147 @@
+/* 尾部 */
+#foot{
+	width: 1274px;
+	height: 396px;
+	background: #f9f9f9;
+	padding-left: 75px;
+	.top{
+		width: 1199px;
+		height: 82px;
+		border-bottom: 1px solid #e5e5e5;
+		a{
+			float: left;
+			width: 299px; 
+			font-size: 18px;
+			color: #3a3a3a;
+			height: 82px;
+			img{
+				float: left;
+				margin: 21px 15px 0 0;
+			}
+			span{
+				float: left;
+				line-height: 82px;
+			}
+		}
+	}
+	
+	.center{
+		height: 209px;
+		width: 1199px;
+		border-bottom: 1px solid #e5e5e5;
+		ul{
+			float: left;
+			width: 920px;
+			height: 160px;
+			border-right: 1px solid #e5e5e5;
+			margin-top: 23px;
+			li{
+				float: left;
+				h3{
+					font-size: 14px;
+					line-height: 28px;
+					font-weight: bold;
+					color: #333333;
+				}
+				h5{
+					color: #777777;
+					line-height: 22px;
+				}
+				a{
+					display: block;
+					width: 153px;
+					&:hover{
+						color: red;
+					}
+				}
+			}
+		}
+		.contact{
+			float: left;
+			text-align: center;
+			margin: 32px 0 0 32px;
+			h3{
+				font-size: 22px;
+				font-weight:bold;
+				color: #575757;
+			}
+			p{
+				color: #575757;
+				margin-top: 14px;
+			}
+			h6{
+				a{
+					width: 170px;
+					height: 34px;
+					display: block;
+					border-radius: 17px;
+					background: #333333;
+					color: white;
+					line-height: 34px;
+					margin-top: 14px;
+					i{
+						font-size: 16px;
+						margin-right: 10px;
+					}
+				}
+			}
+			 
+			h5{
+				margin-top: 14px;
+				color: #575757;
+				height: 20px;
+				a{
+					float:left;
+					margin-left: 7px;
+				}
+				span{
+					float: left;
+				}
+				p{
+					display: none;
+					img{
+						z-index: 10;
+					}
+				}
+			}
+		}
+	}
+	.bott{
+		padding: 26px;
+		.lef{
+			float: left;
+			width: 102px;
+			height: 77px;
+			
+		}
+		.mid{
+			float: left;
+			width: 800px;
+			a{
+				margin: 0 7px;
+			}
+			p{
+				span{
+					display: inline-block;
+					height: 10px;
+					width: 1px;
+					background: #d3d3d3;
+				}
+				a{
+					&:hover{
+						color: red;
+					}
+				}
+			}
+			h5{
+				color: #ccc;
+				width: 1145px;
+				margin-top: 8px;
+			}
+		}
+		.rig{
+			float: left;
+			margin-left: 120px;
+		}
+	}
+}

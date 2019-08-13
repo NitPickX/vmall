@@ -1,0 +1,759 @@
+@charset "UTF-8";
+/*消费者业务网站*/
+.conter {
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.header-default {
+  height: 30px;
+  background: #222;
+}
+.header-default .dflink {
+  overflow: hidden;
+  line-height: 30px;
+  display: block;
+  margin: 0 auto;
+  width: 1180px;
+}
+.header-default .dflink span {
+  color: #f2f2f2;
+  float: left;
+}
+.header-default .dflink i {
+  float: left;
+  color: #f2f2f2;
+  font-size: 12px;
+}
+
+.header-container {
+  border-bottom: 2px solid #eeeeee;
+  height: 140px;
+  display: none;
+}
+.header-container .cntul {
+  overflow: hidden;
+}
+.header-container .cntul .cntli {
+  float: left;
+  width: 227px;
+  height: 100%;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.header-container .cntul .cntli .geren {
+  color: #000;
+}
+.header-container .cntul .cntli h3 {
+  float: left;
+  margin-right: 5px;
+  color: red;
+}
+.header-container .cntul .cntli i {
+  float: left;
+  line-height: 20px;
+  color: red;
+}
+.header-container .cntul .cntli p {
+  float: left;
+  margin-top: 12px;
+  color: #000;
+}
+
+/*导航栏*/
+#navbar {
+  height: 64px;
+  border-bottom: 1px solid #cdcdcd;
+}
+#navbar .logos {
+  overflow: hidden;
+}
+#navbar .logos .logo {
+  float: left;
+  margin-right: 120px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+#navbar .logos .lgul {
+  float: left;
+  overflow: hidden;
+  line-height: 64px;
+}
+#navbar .logos .lgul li {
+  float: left;
+  font-size: 16px;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+  color: #6f6f6f;
+}
+#navbar .logos .lgul li :hover {
+  color: #000;
+}
+#navbar .logos .tool {
+  float: right;
+  line-height: 64px;
+}
+#navbar .logos .tool .atb {
+  margin: 0 20px;
+}
+#navbar .logos .tool a {
+  font-size: 16px;
+  float: left;
+  margin: 0 5px 0 5px;
+  color: #6f6f6f;
+}
+#navbar .logos .tool a :hover {
+  color: #000;
+}
+#navbar .logos .tool a :hover i {
+  font-size: 16px;
+}
+#navbar .logos .tool div {
+  width: 1px;
+  height: 28px;
+  background: #e0e0e0;
+  float: left;
+  margin: 18px 20px 0 20px;
+}
+#navbar .navs {
+  height: 380px;
+  background: #f9f9f9;
+  display: none;
+  z-index: 100;
+}
+#navbar .navs .navn {
+  height: 100px;
+  width: 1010px;
+  margin: 0 auto;
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: block;
+}
+#navbar .navs .shan {
+  font-size: 25px;
+  float: right;
+  cursor: pointer;
+}
+#navbar .navs .phones {
+  margin-top: 70px;
+  position: relative;
+  top: 20px;
+}
+#navbar .navs .phones .a1 {
+  margin-top: -60px;
+  margin-left: 120px;
+  width: 150px;
+}
+#navbar .navs .phones :hover {
+  color: #000;
+  text-decoration: underline;
+}
+#navbar .navs .phones a {
+  float: left;
+  margin: 0 5px 0 5px;
+  width: 150px;
+}
+#navbar .navs .phones a img {
+  height: 100px;
+}
+#navbar .navs .phones a .z1 {
+  height: 150px;
+}
+#navbar .navs .phones a span {
+  line-height: 40px;
+  font-size: 14px;
+  height: 100%;
+}
+#navbar .navs .phones a span p {
+  text-align: center;
+}
+#navbar .navs .phones a .shang {
+  font-size: 22px;
+  line-height: 80px;
+}
+#navbar .navs .phones .gang {
+  float: left;
+  width: 1px;
+  height: 140px;
+  background: #e0e0e0;
+  margin: 0 20px 0 20px;
+}
+
+/*EMUI*/
+.emulnav {
+  width: 100%;
+  height: 60px;
+  background: #f5f3f4;
+  position: relative;
+  z-index: -10;
+}
+.emulnav .logoemui {
+  margin-top: 10px;
+  position: absolute;
+}
+.emulnav .gongneng {
+  position: absolute;
+  right: 100px;
+  line-height: 60px;
+}
+.emulnav .gongneng a {
+  margin: 0 5px;
+  color: #9790af;
+}
+.emulnav .gongneng :hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.emfix {
+  width: 100%;
+  height: 60px;
+  background: #f5f3f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+/*主要内容*/
+.main {
+  z-index: -10;
+  height: 850px;
+  width: 100%;
+  background: #e4f9fc;
+  position: relative;
+}
+.main .img1 {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+}
+.main .img1 img {
+  width: 700px;
+}
+.main .img2 {
+  position: absolute;
+  top: 8px;
+  left: 543px;
+}
+.main .img2 img {
+  height: 400px;
+}
+.main .maintom {
+  position: absolute;
+  top: 600px;
+  left: 255px;
+  color: #3c92a9;
+  text-align: center;
+}
+.main .maintom :nth-child(1) {
+  font-size: 30px;
+  font-weight: 800;
+}
+.main .maintom :nth-child(3) {
+  font-size: 80px;
+  font-weight: 800;
+}
+.main .maintom :nth-child(5) {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/*内容2*/
+.maintwo {
+  position: relative;
+  height: 300px;
+}
+.maintwo .wens {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  color: #000;
+  text-align: center;
+}
+.maintwo .wens :nth-child(1) {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 100px;
+}
+.maintwo .wens :nth-child(3) {
+  font-size: 22px;
+  line-height: 40px;
+}
+.maintwo .wens :nth-child(5) {
+  font-size: 22px;
+  line-height: 40px;
+}
+.maintwo .wens :nth-child(7) {
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.shis {
+  height: 500px;
+  position: relative;
+}
+.shis .voia {
+  position: absolute;
+  top: 0px;
+  left: 560px;
+  color: #2885d2;
+  font-size: 22px;
+  overflow: hidden;
+}
+.shis .voia p {
+  float: left;
+}
+.shis .voia i {
+  color: #2885d2;
+  font-size: 32px;
+  float: left;
+}
+.shis .vios {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: -350px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.shis .vios .shans {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 334px;
+  top: 64px;
+  color: #e4f9fc;
+  cursor: pointer;
+  z-index: 10;
+}
+.shis .vios .videos {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+.shis .zhul {
+  position: absolute;
+  top: 80px;
+}
+.shis .zhul .li1 {
+  position: absolute;
+  left: 510px;
+}
+.shis .zhul .li1 img {
+  height: 400px;
+}
+.shis .zhul .li2 {
+  position: absolute;
+  left: 510px;
+}
+.shis .zhul .li2 img {
+  height: 400px;
+}
+.shis .zhul .li3 {
+  position: absolute;
+  left: 510px;
+  top: -22px;
+  z-index: 20;
+}
+.shis .zhul .li3 img {
+  height: 440px;
+}
+.shis .zhul .li4 {
+  position: absolute;
+  left: 510px;
+  z-index: 10;
+}
+.shis .zhul .li4 img {
+  height: 400px;
+}
+.shis .zhul .li5 {
+  position: absolute;
+  left: 510px;
+}
+.shis .zhul .li5 img {
+  height: 400px;
+}
+
+.jindutiao {
+  margin-top: 100px;
+  height: 500px;
+}
+.jindutiao .xinyu {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.jindutiao .xinyu h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 80px;
+}
+.jindutiao .xinyu span {
+  font-size: 20px;
+  line-height: 40px;
+}
+.jindutiao .jianul {
+  overflow: hidden;
+  margin: 40px auto;
+  width: 800px;
+}
+.jindutiao .jianul .jianli {
+  float: left;
+  margin: 0 20px;
+}
+.jindutiao .jianul .jianli h2 {
+  text-align: center;
+}
+
+.tiaojin {
+  margin-top: 100px;
+  height: 700px;
+  background: #fafafa;
+  padding: 100px 0 0;
+  box-sizing: border-box;
+}
+.tiaojin .tiaozi {
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+}
+.tiaojin .tiaozi h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 80px;
+}
+.tiaojin .tiaozi span {
+  font-size: 20px;
+  line-height: 40px;
+}
+.tiaojin .tiaoxing {
+  margin: 100px auto;
+  width: 900px;
+  height: 200px;
+  position: relative;
+}
+.tiaojin .tiaoxing h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+.tiaojin .tiaoxing p {
+  font-size: 15px;
+}
+.tiaojin .tiaoxing .percent1 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  font-size: 80px;
+  color: #2ba0e3;
+}
+.tiaojin .tiaoxing .percent2 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  font-size: 80px;
+  color: #8871f3;
+}
+.tiaojin .tiaoxing .filldiv1 {
+  margin-top: 30px;
+  width: 0px;
+  height: 15px;
+  background: #aa8fee;
+}
+.tiaojin .tiaoxing .filldiv2 {
+  margin-top: 20px;
+  width: 0px;
+  height: 15px;
+  background: #b7b7b7;
+}
+
+/*畅爽游戏加速，体验所向披靡*/
+.changshuang {
+  height: 500px;
+  margin-top: 300px;
+  background: #fafafa;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+}
+.changshuang .xinyu {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+.changshuang .xinyu h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 80px;
+}
+.changshuang .xinyu span {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 50px;
+  display: block;
+}
+.changshuang .xinyu img {
+  width: 1000px;
+}
+
+/* 一键剪辑，疾速分享*/
+.jianji {
+  height: 500px;
+  margin-top: 300px;
+  background: #fafafa;
+  padding: 50px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.jianji .vioss {
+  margin-left: 50px;
+}
+.jianji .vioss .keimg {
+  height: 440px;
+  position: absolute;
+  left: 300px;
+  z-index: 30;
+}
+.jianji .vioss .videose {
+  height: 420px;
+  position: absolute;
+  left: 307px;
+  top: 58px;
+  z-index: 10;
+}
+.jianji .vioss .zhuimg {
+  height: 420px;
+  position: absolute;
+  left: 307px;
+  top: 58px;
+  z-index: 20;
+}
+.jianji .wenzi {
+  width: 420px;
+  height: 400px;
+  position: absolute;
+  right: 150px;
+  top: 110px;
+}
+.jianji .wenzi h2 {
+  font-size: 46px;
+  font-weight: 900;
+}
+.jianji .wenzi span {
+  font-size: 20px;
+}
+
+/* 听你所需，想你未来*/
+.weilai {
+  height: 500px;
+  margin-top: 100px;
+  position: relative;
+}
+.weilai .video-back {
+  color: #fff;
+}
+.weilai .video-back video {
+  position: absolute;
+  left: 206px;
+  height: 500px;
+}
+.weilai .video-back h1 {
+  position: absolute;
+  left: 300px;
+  top: 30px;
+  font-size: 50px;
+  font-weight: 800;
+}
+.weilai .video-back p {
+  position: absolute;
+  left: 300px;
+  top: 104px;
+  width: 650px;
+  font-size: 20px;
+}
+.weilai .video-back i {
+  position: absolute;
+  left: 300px;
+  top: 180px;
+  font-size: 65px;
+  cursor: pointer;
+}
+.weilai .vioss {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: -150px;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+.weilai .vioss .shanss {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: 568px;
+  top: -30px;
+  color: #e4f9fc;
+  cursor: pointer;
+  z-index: 30;
+}
+.weilai .vioss .shanss i {
+  font-size: 20px;
+}
+.weilai .vioss .videoss {
+  position: absolute;
+  left: 300px;
+  top: 60px;
+}
+
+.wait {
+  margin-top: 100px;
+  height: 400px;
+  padding: 20px 400px;
+}
+.wait .keimg {
+  float: left;
+  margin-right: 100px;
+}
+.wait .keimg img {
+  height: 300px;
+}
+.wait .youc {
+  float: left;
+  width: 260px;
+}
+.wait .youc h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+.wait .youc p {
+  margin: 10px 0;
+}
+.wait .youc a {
+  color: #6fb0ea;
+}
+.wait .youc span {
+  display: block;
+  font-weight: 800;
+  margin: 20px 0 10px;
+}
+.wait .youc .tu {
+  float: left;
+}
+.wait .youc .tu img {
+  width: 120px;
+}
+
+.football {
+  height: 500px;
+  background: #f9f9f9;
+  padding: 20px 0;
+}
+.football .foots {
+  width: 740px;
+  height: 250px;
+  background: #fff;
+  margin: 10px auto 0;
+  text-align: center;
+  line-height: 50px;
+}
+.football .foots img {
+  margin-top: 40px;
+}
+.football .foots a {
+  color: #4e83ed;
+  font-size: 16px;
+}
+.football .footx {
+  width: 740px;
+  height: 210px;
+  margin: 20px auto 0;
+  background: -webkit-linear-gradient(left, #1f78f8, #e957b9);
+  text-align: center;
+  line-height: 60px;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.football .footx h2 {
+  font-size: 30px;
+  color: #fff;
+}
+.football .footx a {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footdest {
+  background: #f2f2f2;
+  height: 1000px;
+  padding: 20px 0;
+}
+.footdest h2 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footdest .foots {
+  width: 760px;
+  overflow: hidden;
+  margin: 20px auto;
+  border-bottom: 1px solid #9c9c9c;
+}
+.footdest .foots a {
+  color: #2c8dd1;
+}
+.footdest .foots .fostul {
+  float: left;
+  height: 150px;
+}
+.footdest .foots .fostul .fostli {
+  float: left;
+  font-size: 14px;
+  width: 250px;
+}
+.footdest .footx {
+  width: 760px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.footdest .footx .fostul {
+  float: left;
+  height: 150px;
+}
+.footdest .footx .fostul .fostli {
+  float: left;
+  font-size: 14px;
+  width: 250px;
+}
+.footdest .footx .gootssx {
+  width: 760px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.footdest .footx .gootssx a {
+  color: #2c8dd1;
+}
+.footdest .footx .gootssx h3 {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 80px;
+}
+.footdest .footx .gootssx .ssxul {
+  overflow: hidden;
+}
+.footdest .footx .gootssx .ssxul li {
+  float: left;
+  margin: 0 20px 0 30px;
+  cursor: pointer;
+}
+.footdest .footx .gootssx .ssxul li img {
+  height: 30px;
+}
+.footdest .footx .gootssx .ewm1 {
+  margin-top: 10px;
+  display: none;
+}
+
+/*# sourceMappingURL=emui.css.map */
