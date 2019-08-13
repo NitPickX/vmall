@@ -1,0 +1,12 @@
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,img,th,td,form,input,fieldset{padding: 0;margin: 0;}
+ul li,ol li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+body{font-family: "微软雅黑";}
+img{border: none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+i{font-style: normal;}
+input{outline: none;}
+.clear:after{content:".";clear:both;display:block;
+    height:0;overflow:hidden;visibility:hidden; font-size:1px;}
+/* 万能清除浮动，父元素调用 */
