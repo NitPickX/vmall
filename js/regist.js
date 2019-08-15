@@ -46,10 +46,10 @@
                 con4.style.cssText = 'border:1px solid red';
             }
         }
-        var pc = document.getElementById('phonechance')
-        var mc = document.getElementById('messagechance')
-        var messagezhuti = document.querySelector('.messagezhuti')
-        var messagecopy = document.querySelector('.messagecopy')
+        var pc = document.getElementById('phonechance');
+        var mc = document.getElementById('messagechance');
+        var messagezhuti = document.querySelector('.messagezhuti');
+        var messagecopy = document.querySelector('.messagecopy');
         mc.onclick = function () {
             messagezhuti.style.cssText = 'display:none'
             messagecopy.style.cssText = 'display:block'

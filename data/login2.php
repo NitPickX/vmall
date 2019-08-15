@@ -29,9 +29,9 @@ if (mysqli_connect_error($link)){//连接数据库失败
     die("连接失败：".mysqli_connect_error());
 }
 
-mysqli_query($link, 'CREATE DATABASE addlogin');//创建数据库
+mysqli_query($link, 'CREATE DATABASE vmall');//创建数据库
 
-mysqli_query($link, 'use addlogin');//选择数据库
+mysqli_query($link, 'use vmall');//选择数据库
 
 $sql= <<< END
 CREATE TABLE `user` (
