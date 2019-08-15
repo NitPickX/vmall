@@ -15,7 +15,7 @@
             var phzz = new RegExp(/^[1](([2-6][0-9])|([4][5-9])|([5][0-3,5-9])|([6][5,6])|([7][0-8])|([8][0-9])|([9][1,8,9]))[0-9]{8}$/);
             if (phzz.test(username) == true && userpass == pvv1) {
                 ajax({
-                    url: 'data/login2.php',
+                    url: 'data/login.php',
                     type: 'get',
                     data: 'act=add&user=' + username + '&pass=' + userpass,
                     success: function (data) {
