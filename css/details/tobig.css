@@ -1,0 +1,96 @@
+.ct-con {
+  border-bottom: 2px solid #ccc; }
+
+.con-main {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 490px;
+  background: #fff; }
+  .con-main .ct-nav a {
+    line-height: 32px;
+    font-size: 12px;
+    color: #3a3a3a; }
+
+.ct-tobig {
+  width: 450px;
+  float: left; }
+  .ct-tobig .ct-big {
+    height: 450px;
+    width: 450px;
+    cursor: move;
+    position: relative; }
+    .ct-tobig .ct-big .ct-mask {
+      height: 225px;
+      width: 225px;
+      background-color: #c0bfbd;
+      opacity: 0.5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      border: 1px solid #ccc;
+      display: none; }
+    .ct-tobig .ct-big img {
+      width: 100%;
+      height: 100%; }
+    .ct-tobig .ct-big .ct-Big {
+      display: none;
+      height: 450px;
+      width: 450px;
+      position: absolute;
+      left: 460px;
+      top: 0px;
+      border: 1px solid #ccc;
+      overflow: hidden;
+      background: #fffefe; }
+      .ct-tobig .ct-big .ct-Big img {
+        left: 460px;
+        top: 0px;
+        position: absolute;
+        display: block;
+        height: 200%;
+        width: 200%; }
+
+.ct-lunbo {
+  width: 100%;
+  margin-top: 18px; }
+  .ct-lunbo .ct-prve {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 49px;
+    padding-top: 19px; }
+    .ct-lunbo .ct-prve .a1 {
+      text-align: left;
+      font-size: 30px;
+      color: #686767; }
+  .ct-lunbo .ct-next {
+    display: block;
+    float: right;
+    width: 40px;
+    height: 49px;
+    padding-top: 19px;
+    text-align: right; }
+    .ct-lunbo .ct-next .a2 {
+      text-align: right;
+      font-size: 30px;
+      color: #686767; }
+  .ct-lunbo div {
+    width: 370px;
+    height: 68px;
+    float: left;
+    overflow: hidden;
+    position: relative; }
+    .ct-lunbo div ul {
+      position: absolute;
+      top: 0;
+      left: 0px; }
+      .ct-lunbo div ul li {
+        height: 68px;
+        width: 68px;
+        margin: 0 3px;
+        float: left;
+        box-sizing: border-box; }
+        .ct-lunbo div ul li img {
+          width: 100%;
+          height: 100%;
+          border: none; }

@@ -1,0 +1,716 @@
+    /* 顶部快捷导航栏 */
+    /* 左侧 */
+    
+    .shortcut {
+        height: 36px;
+        background-color: #F9F9F9;
+    }
+    
+    .shortcut .fl ul {
+        height: 36px;
+    }
+    
+    .shortcut .fl li {
+        position: relative;
+        float: left;
+        height: 36px;
+        line-height: 36px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    
+    .shortcut .fl li a {
+        margin: 0 auto;
+    }
+    
+    .shortcut .fl li:first-child {
+        padding-left: 0;
+    }
+    
+    .fl ul li span {
+        position: absolute;
+        left: -1px;
+        top: 1px;
+        font-size: 10px;
+        color: #a4a4a4;
+    }
+    
+    .fl ul li i {
+        position: absolute;
+        top: -3px;
+        right: 2px;
+        vertical-align: middle;
+        font-family: 'icomoon';
+        font-size: 16px;
+    }
+    
+    .shortcut .fl li:last-child ul {
+        overflow: hidden;
+        position: absolute;
+        top: 36px;
+        left: -24px;
+        width: 100px;
+        height: 144px;
+        border-radius: 8px;
+        border-top-right-radius: 0;
+        z-index: 999;
+    }
+    
+    .shortcut .fl li:last-child ul li {
+        width: 100px;
+        padding: 0;
+        background-color: #fff;
+        text-align: center;
+    }
+    
+    .shortcut .fl li:last-child {
+        width: 60px;
+    }
+    /* hover */
+    
+    .shortcut .fl li:last-child:hover ul {
+        display: block!important;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    }
+    
+    .shortcut .fl li:last-child:hover {
+        background-color: #fff;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    }
+    
+    .shortcut .fl li:last-child:hover a.a1 {
+        color: #ca151d;
+    }
+    
+    .shortcut .fl li:last-child:hover span {
+        display: none;
+    }
+    
+    .shortcut .fl li:last-child:hover i {
+        transition: all .3s;
+        transform: translate(0, 6px) rotate(180deg);
+    }
+    /* 右侧 */
+    
+    .shortcut .fr>div {
+        float: left;
+        position: relative;
+        padding: 0 10px;
+        height: 36px;
+        line-height: 36px;
+    }
+    
+    .shortcut .fr div a i {
+        position: absolute;
+        top: -3px;
+        right: 2px;
+        vertical-align: middle;
+        font-family: 'icomoon';
+        font-size: 16px;
+    }
+    
+    .shortcut .fr div:first-child a:first-child {
+        margin-right: 4px;
+    }
+    
+    .shortcut .fr div span:first-child {
+        position: absolute;
+        left: -1px;
+        top: 1px;
+        font-size: 10px;
+        color: #a4a4a4;
+    }
+    
+    .shortcut .fr>div:nth-child(n+3) {
+        padding-right: 18px;
+    }
+    
+    .shortcut .fr div:nth-child(3) ul {
+        display: none;
+        position: absolute;
+        left: 0px;
+        width: 76px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+        z-index: 999;
+    }
+    
+    .shortcut .fr div:nth-child(3) ul li {
+        color: #a4a4a4;
+        text-align: center;
+    }
+    
+    .lyb-home {
+        position: relative;
+    }
+    
+    .lyb-home a {
+        position: absolute;
+        display: block;
+        left: 20px;
+        top: 18px;
+        width: 82px;
+        height: 100px;
+    }
+    
+    .lyb-home span {
+        position: absolute;
+        left: 15px;
+        top: 63px;
+        color: #a4a4a4;
+    }
+    
+    .lyb-pindao {
+        position: absolute;
+        top: 10px;
+        left: 125px;
+        width: 185px;
+        height: 100px;
+    }
+    
+    .lyb-chanpin {
+        position: absolute;
+        top: 10px;
+        left: 310px;
+        width: 185px;
+        height: 100px;
+    }
+    
+    .lyb-fuwu {
+        position: absolute;
+        top: 10px;
+        left: 513px;
+        width: 185px;
+        height: 100px;
+    }
+    
+    .lyb-huiyuan {
+        position: absolute;
+        top: 10px;
+        left: 740px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .lyb-website-nav h4 {
+        font-size: 16px;
+    }
+    
+    .lyb-website-nav a:nth-child(n+1) {
+        float: left;
+        width: 50%;
+        height: 27px;
+        line-height: 27px;
+    }
+    
+    div.lyb-website-nav {
+        display: none;
+        position: absolute;
+        top: 36px;
+        left: -824px;
+        width: 900px;
+        height: 140px;
+        background-color: #fff;
+        border-radius: 8px;
+        border-top-right-radius: 0;
+        z-index: 999;
+    }
+    
+    .lyb-web {
+        display: none;
+        position: absolute;
+        top: 36px;
+        left: -166px;
+        background-color: #fff;
+        border-radius: 8px;
+        border-top-right-radius: 0;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+        z-index: 999;
+    }
+    
+    .lyb-web img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .lyb-web>div {
+        width: 210px;
+        height: 94px;
+        margin: 10px;
+    }
+    
+    .lyb-web>div div:first-child {
+        margin-right: 10px;
+    }
+    
+    .lyb-web h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .lyb-web p {
+        line-height: 16px;
+    }
+    
+    .small1 {
+        float: left;
+        width: 33px;
+        height: 33px;
+        background-position: -483px 0;
+        background-image: url(../image/img/精灵图.png);
+    }
+    
+    .small2 {
+        float: left;
+        width: 33px;
+        height: 33px;
+        background-position: -517px 2px;
+        background-image: url(../image/img/精灵图.png);
+    }
+    
+    .shortcut .fr>div:last-child {
+        position: relative;
+        width: 55px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #F1F1F1;
+    }
+    
+    .shortcut .fr>div:last-child em {
+        display: inline-block;
+        margin-top: 10px;
+        width: 13px;
+        height: 14px;
+        background-image: url(../image/img/精灵图.png);
+        background-position: -1px 0;
+    }
+    
+    .shortcut .fr>div:last-child div {
+        display: none;
+        position: absolute;
+        left: -372px;
+        top: 36px;
+        width: 447px;
+        height: 175px;
+        background-color: #fff;
+        border-radius: 8px;
+        border-top-right-radius: 0;
+        z-index: 99;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    }
+    
+    .shortcut .fr>div:last-child div span.car-logo {
+        position: absolute;
+        display: block;
+        left: 173px;
+        top: 20px;
+        width: 100px;
+        height: 100px;
+        background-image: url(../image/img/精灵图.png);
+        background-position: 0 -165px;
+    }
+    
+    .shortcut .fr>div:last-child div p {
+        position: absolute;
+        left: 110px;
+        top: 123px;
+        font-size: 16px;
+        color: #ababab;
+    }
+    /* hover */
+    
+    .shortcut .fr>div:last-child:hover div {
+        display: block;
+    }
+    
+    .shortcut .fr>div:nth-child(n+3):hover {
+        background-color: #fff;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    }
+    
+    .shortcut .fr div:nth-child(n+3):hover a.a1 {
+        color: #ca151d;
+    }
+    
+    .shortcut .fr div:nth-child(n+3):hover i {
+        transition: all .3s;
+        transform: translate(0, 6px) rotate(180deg);
+    }
+    
+    .shortcut .fr div:nth-child(3):hover ul {
+        display: block;
+        background-color: #fff;
+    }
+    
+    .shortcut .fr div:nth-child(3):hover .shortcut.frdiv:nth-child(4)>span {
+        display: none;
+    }
+    
+    .shortcut .fr div:nth-child(n+3):hover>span {
+        display: none;
+    }
+    
+    .lyb-home:hover span {
+        color: #ca151d;
+    }
+    
+    .shortcut .fr div:nth-child(4):hover>span {
+        display: none;
+    }
+    
+    .shortcut .fr div:nth-child(4):hover div.lyb-website-nav {
+        display: block;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+    }
+    
+    .shortcut .fr div:nth-child(5):hover .lyb-web {
+        display: block;
+    }
+    /* 头部模块 */
+    
+    .header {
+        background-color: #fff;
+    }
+    
+    .header div.w {
+        padding-top: 18px;
+        padding-bottom: 15px;
+        height: 41px;
+    }
+    
+    .header div.w h1 a {
+        display: block;
+        width: 205px;
+        height: 36px;
+        margin-right: 20px;
+        background-size: 205px 36px;
+        background-image: url(../image/img/logo.png);
+    }
+    /* .header div.w ul {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    
+    .header div.w ul li {
+        float: left;
+        margin-left: 25px;
+        font-size: 16px;
+    }
+    
+    .header div.w ul a {
+        display: block;
+        color: #000;
+    }
+    
+    .header div.w ul a:hover {
+        color: #CA151D;
+    }
+    
+    .header div.w img {
+        width: 74px;
+        height: 24px;
+    }
+    
+    .lyb-search {
+        position: relative;
+        width: 290px;
+        height: 30px;
+        margin-left: 120px;
+        background-color: #F0F0F0;
+        border-radius: 20px;
+    }
+    
+    .lyb-search input {
+        position: absolute;
+        left: 10px;
+        height: 30px;
+        width: 250px;
+        background-color: #F0F0F0;
+    }
+    
+    .lyb-search button {
+        font-size: 16px;
+        font-family: "icomoon";
+        position: absolute;
+        top: 6px;
+        left: 260px;
+        background-color: #f0f0f0;
+    }
+    
+    .lyb-search button:hover {
+        color: #787878;
+    }
+    
+    .lyb-search a:nth-child(3) {
+        color: #CA151D;
+        position: absolute;
+        left: 121px;
+        top: 8px;
+    }
+    
+    .lyb-search a:nth-child(4) {
+        color: #CA151D;
+        position: absolute;
+        left: 200px;
+        top: 7px;
+    } */
+    
+    .slogan,
+    .service,
+    .footer {
+        background-color: #f9f9f9;
+    }
+    
+    .slogan>ul {
+        padding: 20px 0;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .slogan li {
+        display: inline-block;
+    }
+    
+    .slogan li:nth-child(-n+3) {
+        padding-right: 120px;
+    }
+    
+    .slogan span {
+        display: inline-block;
+        height: 40px;
+        padding-left: 15px;
+        font-size: 18px;
+        color: #3a3a3a;
+        line-height: 30px;
+    }
+    
+    .slogan i {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: url(../image/img/icon01.svg) no-repeat;
+        vertical-align: middle;
+    }
+    
+    .slo1 i {
+        background-position: -74px 0;
+    }
+    
+    .slo2 i {
+        background-position: -114px 0;
+    }
+    
+    .slo3 i {
+        background-position: -154px 0;
+    }
+    
+    .slo4 i {
+        background-position: -194px 0;
+    }
+    
+    .service dl {
+        display: block;
+        float: left;
+        margin-top: 5px;
+    }
+    
+    .service>div {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .service-l {
+        position: relative;
+        width: 920px;
+        height: 160px;
+        padding: 20px 0;
+    }
+    
+    .service-l dl {
+        width: 16.66%;
+        height: 150px;
+    }
+    
+    .service-l dl dt {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .service-l dl dd a {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .service-r {
+        width: 279px;
+        margin: 25px 0 20px;
+        border-left: 1px solid #e5e5e5;
+        color: #575757;
+        text-align: center;
+    }
+    
+    .service-r b {
+        display: inline-block;
+        margin: 5px 0;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .service-r p {
+        font-size: 14px;
+    }
+    
+    .ser-kefu {
+        display: inline-block;
+        width: 175px;
+        height: 35px;
+        background: url(../image/img/kefu.bmp) no-repeat;
+        margin: 15px 0;
+    }
+    
+    .ser-kefu:hover {
+        opacity: .6;
+    }
+    
+    .service-r>div {
+        position: relative;
+        margin: 10px 0;
+    }
+    
+    .service-r>div span:nth-child(1) {
+        font-size: 14px;
+    }
+    
+    .ser-lj a {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background: url(../image/img/guanzhu.png) no-repeat;
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    .ser-lj a:hover {
+        opacity: .6;
+    }
+    
+    .ser-lj a:nth-child(2) {
+        background-position: -36px 0;
+    }
+    
+    .ser-lj a:nth-child(3) {
+        background-position: -72px 0;
+    }
+    
+    .ser-lj a:nth-child(4) {
+        background-position: -106px 0;
+    }
+    
+    .ser-erweima {
+        display: none;
+        position: absolute;
+        left: 60px;
+        width: 120px;
+        height: 120px;
+        background: #fff;
+    }
+    
+    .ser-erweima span {
+        display: inline-block;
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        margin: 0;
+        border: 5px solid #fff;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        transform: translatex(-50%) rotate(135deg);
+    }
+    
+    .ser-erweima img {
+        margin-top: 6px;
+        width: 90%;
+        height: 90%;
+    }
+    
+    .footer {
+        padding: 25px 0;
+    }
+    
+    .foot_l {
+        margin-right: 20px;
+    }
+    
+    .foot_l img {
+        width: 82px;
+        height: 20px;
+    }
+    
+    .foot_m li {
+        float: left;
+        color: #e5e5e5;
+    }
+    
+    .foot_m>div {
+        margin-top: 5px;
+        color: #a4a4a4;
+    }
+    
+    .foot_r img {
+        width: 70px;
+        height: 24px;
+        margin-left: 15px;
+    }
+    /* 轮播图样式 */
+    
+    .lr-lunbotu {
+        overflow: hidden;
+        position: absolute;
+        right: 50px;
+        top: 52px;
+        width: 100px;
+        height: 100px;
+    }
+    
+    .lr-box {
+        position: absolute;
+        left: 0px;
+        width: 500%;
+    }
+    
+    .lr-box div {
+        width: 100px;
+        line-height: 20px;
+        float: left;
+    }
+    
+    .lr-box a {
+        display: block;
+    }
+    
+    .leftarrows,
+    .rightarrows {
+        position: absolute;
+        font-family: 'icomoon';
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: 700;
+    }
+    
+    .leftarrows {
+        transform: rotate(180deg);
+        right: 72px;
+        top: 26px;
+        color: #969696;
+    }
+    
+    .rightarrows {
+        right: 65px;
+        top: 26px;
+    }
+    
+    .lunbotu-title {
+        position: absolute;
+        right: 94px;
+        top: 24px;
+        font-size: 14px;
+    }

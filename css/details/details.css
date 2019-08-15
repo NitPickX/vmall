@@ -1,0 +1,165 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+.ct-header{
+    height:74px;
+    background:#fff;    
+}
+.ct-header-main{
+    width:1200px;
+    margin:0 auto;
+    
+    height:41px;
+    position: relative;
+}
+.ct-header-main img{
+    margin-top:18px;
+    display:block;
+    height:41px;
+    padding-right:34px;
+    float: left;
+    width:205px;
+}
+.ct-header-main ul{
+    cursor: pointer;
+    float:left;
+}
+.ct-header-main ul li{
+padding:18px 24px 15px 0;
+float:left;
+line-height:41px;
+}
+
+.ct-header-main form{
+margin:23px 0 15px 0;
+float: right;
+height:36px;
+position: relative;
+}
+.ct-search input{
+    height:30px;
+    border:none;
+    background-color: #e8e8e7;
+    font-size:12px;
+    line-height:30px;
+    color:#3c3c3c;
+    vertical-align: top;     
+}
+.text{
+    width:285px;
+    outline: medium;
+    padding-left:15px;
+    border-radius:14px 0 0 14px;
+}
+.search{
+    box-sizing: content-box;
+    width:35px;
+    border-radius: 0 14px 14px 0;
+   background:#e8e8e7 url(../../img/details/search.png) no-repeat left 3px;
+   background-size: 70% 70%;
+}
+.ct-header-main form div{
+    position: absolute;
+    right:35px;
+    top:0px;
+    z-index: 9;
+}
+.ct-header-main form span{
+    color:#CF0A2C;
+    font-size:12px;
+    line-height:1.5em;
+    padding-right:14px;
+}
+.lianxiang{
+    z-index: 10;
+    width:335px;
+    position:absolute;
+    right:0;
+    top:50px;
+    display:none;
+    background: #fff;
+}
+.lianxiang p a{
+    padding-left:15px;
+    color:#3a3a3a;
+    font-size:14px;
+    line-height: 1.5rem;
+}
+/* 详情框 */
+.ct-con{
+    background:#fff;
+    width: 100%;
+    position: relative;
+    height:727px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.xiala{
+    display:none;
+  
+    width: 100%;
+    background:#fff;
+    color:#3a3a3a;
+    z-index: 10;
+    position: absolute;
+    left:0;
+    top:60px; 
+}
+.xiala-main{
+width:1200px;
+margin:0 auto;
+overflow: hidden;
+}
+.all{
+    padding-top:5px;
+    font-size: 14px;
+    float:left;
+    margin-right:5px;
+}
+.all a{
+    padding-right:14px;
+    font-size:14px;
+}
+.xiala ul{
+    padding:5px 12px 0 0;
+    width:940px;
+    float: left;
+    overflow: hidden;
+
+}
+
+.xiala ul a{
+    font-size:14px;
+    color:#3e3a3a;
+    line-height:30px;
+}
+
+.xiala ul li{
+    padding:0 15px;
+    float:left;
+}
+.xiala ol li{
+    width:160px;
+    height:206px;
+    display:block;
+    text-align: center;
+    padding:0 20px;
+    float:left;
+}
+.xiala ol li{
+font-size: 12px;
+line-height:18px;
+}
+.xiala ol li a p{
+    margin:9px auto 2px;
+}
+.xiala ol span{
+    color:#ca141d;
+}
+.xiala ol li img{
+    border:0;
+    width:120px;
+    height:120px;
+    margin:20px 20px 0;   
+}

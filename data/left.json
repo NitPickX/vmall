@@ -1,0 +1,26 @@
+[
+    {   
+        "img":["phone1.png","phone2.png","phone3.png","phone4.png","phone5.png","phone6.png","phone7.png","phone8.png"],
+        "description":["荣耀","HUAWEI nova系列","HUAWEI P系列","华为畅享系列","HUAWEI Mate系列","华为 麦芒系列","华为畅玩系列","移动4G+专区"]
+    },
+    {   
+        "img":["computer1.png","computer2.png","computer3.png"],
+        "description":["平板电脑","笔记本电脑","笔记本配件"]
+    },
+    {   
+        "img":["watch1.png","watch2.png","watch3.png"],
+        "description":["荣耀","HUAWEI nova系列","HUAWEI P系列"]
+    },
+    {   
+        "img":["home1.png","home2.png","home3.png","home4.png","home5.png","home6.png","home7.png","home8.png","home9.png","home10.png","home11.png","home12.png","home13.png","home14.png","home15.png"],
+        "description":["平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件"]
+    },
+    {   
+        "img":["parts1.png","parts2.png","parts3.png","parts4.png","parts5.png","parts6.png","parts7.png","parts8.png","parts9.png","parts10.png","parts11.png","parts12.png","parts13.png","parts14.png","parts15.png"],
+        "description":["平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件"]
+    },
+    {   
+        "img":["home1.png","home2.png","home3.png","home4.png","home5.png","home6.png","home7.png","home8.png","home9.png","home10.png","home11.png","home12.png","home13.png","home14.png","home15.png"],
+        "description":["平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件","平板电脑","笔记本电脑","笔记本配件"]
+    }
+]

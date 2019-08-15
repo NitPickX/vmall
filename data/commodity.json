@@ -1,0 +1,18 @@
+[
+    {"code":"01","number":"0","price":"12999.00","description":"","imgurl":"../img/index/phone15.png","discount":"300"},
+    {"code":"02","number":"0","price":"899.00","description":"","imgurl":"../img/index/phone1.png","discount":"300"},
+    {"code":"03","number":"0","price":"2799.00","description":"","imgurl":"../img/index/phone2.png","discount":"300"},
+    {"code":"04","number":"0","price":"799.00","description":"","imgurl":"../img/index/phone3.png","discount":"300"},
+    {"code":"05","number":"0","price":"4499.00","description":"","imgurl":"../img/index/phone4.png","discount":"300"},
+    {"code":"06","number":"0","price":"3199.00","description":"","imgurl":"../img/index/phone5.png","discount":"300"},
+    {"code":"07","number":"0","price":"1999.00","description":"","imgurl":"../img/index/phone6.png","discount":"300"},
+    {"code":"08","number":"0","price":"1399.00","description":"","imgurl":"../img/index/phone7.png","discount":"300"},
+    {"code":"09","number":"0","price":"799.00","description":"","imgurl":"../img/index/phone8.png","discount":"300"},
+    {"code":"10","number":"0","price":"1499.00","description":"","imgurl":"../img/index/phone9.png","discount":"300"},
+    {"code":"11","number":"0","price":"1899.00","description":"","imgurl":"../img/index/phone10.png","discount":"300"},
+    {"code":"12","number":"0","price":"799.00","description":"","imgurl":"../img/index/phone11.png","discount":"300"},
+    {"code":"13","number":"0","price":"599.00","description":"","imgurl":"../img/index/phone12.png","discount":"300"},
+    {"code":"14","number":"0","price":"1899.00","description":"","imgurl":"../img/index/phone13.png","discount":"300"},
+    {"code":"15","number":"0","price":"2499.00","description":"","imgurl":"../img/index/phone14.png","discount":"300"}
+
+]

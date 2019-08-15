@@ -1,0 +1,93 @@
+.ct-size {
+  width: 100%;
+  overflow: hidden; }
+
+.ct-size1 {
+  width: 1200px;
+  margin: 0 auto; }
+  .ct-size1 h2 {
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 14px;
+    border-left: 4px solid #ca141d;
+    margin-bottom: 14px;
+    font-weight: normal; }
+
+.ct-content {
+  width: 1145px;
+  margin: 0 auto;
+  padding: 39px 50px 32px 16px;
+  border-top: 1px solid #ccc;
+  overflow: hidden; }
+  .ct-content .ct-sizeleft {
+    float: left;
+    width: 100px;
+    height: 33px;
+    font-size: 22px;
+    line-height: 33px;
+    margin-right: 20px; }
+  .ct-content .ct-sizeright {
+    font-size: 14px;
+    float: left; }
+    .ct-content .ct-sizeright ul {
+      width: 1011px;
+      color: #ccc;
+      float: right; }
+      .ct-content .ct-sizeright ul li {
+        margin-bottom: 9px;
+        line-height: 21px; }
+        .ct-content .ct-sizeright ul li p {
+          color: #3a3a3a; }
+          .ct-content .ct-sizeright ul li p span {
+            vertical-align: top;
+            display: inline-block;
+            width: 121px;
+            margin-right: 20px; }
+          .ct-content .ct-sizeright ul li p i {
+            display: inline-block;
+            width: 844px;
+            font-style: normal; }
+
+.span {
+  height: 6px;
+  width: 6px !important;
+  border-radius: 3px;
+  background: #9b9999;
+  display: inline-block;
+  margin: 0;
+  margin-top: 10.5px;
+  margin-right: 10px; }
+
+.ct-size2 {
+  width: 100%;
+  background: #b4b3b3; }
+  .ct-size2 .span {
+    background: #b4b3b3; }
+
+.ct-aftersale1, .ct-aftersale2 {
+  overflow: hidden;
+  width: 1040px;
+  padding-bottom: 20px;
+  padding: 38px 30px 40px 130px;
+  width: 100%; }
+  .ct-aftersale1 p, .ct-aftersale2 p {
+    width: 249px;
+    height: 21px;
+    float: left;
+    margin: 0 20px 16px 0; }
+    .ct-aftersale1 p .ct-chaoduan, .ct-aftersale2 p .ct-chaoduan {
+      width: 223px !important;
+      display: inline-block;
+      font-style: normal;
+      font-size: 14px;
+      line-height: 21px; }
+
+.ct-aftersale2 li {
+  display: block;
+  clear: both; }
+  .ct-aftersale2 li p {
+    width: 1140px; }
+
+.ct-aftersale2 p {
+  height: 21px;
+  width: 100%; }
