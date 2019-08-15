@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* 尾部 */
+#foot {
+  width: 1274px;
+  height: 396px;
+  background: #f9f9f9;
+  padding-left: 75px;
+  margin: 0 auto;
+}
+#foot .top {
+  width: 1199px;
+  height: 82px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#foot .top a {
+  float: left;
+  width: 299px;
+  font-size: 18px;
+  color: #3a3a3a;
+  height: 82px;
+}
+#foot .top a img {
+  float: left;
+  margin: 21px 15px 0 0;
+}
+#foot .top a span {
+  float: left;
+  line-height: 82px;
+}
+#foot .center {
+  height: 209px;
+  width: 1199px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#foot .center ul {
+  float: left;
+  width: 920px;
+  height: 160px;
+  border-right: 1px solid #e5e5e5;
+  margin-top: 23px;
+}
+#foot .center ul li {
+  float: left;
+}
+#foot .center ul li h3 {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #333333;
+}
+#foot .center ul li h5 {
+  color: #777777;
+  line-height: 22px;
+}
+#foot .center ul li a {
+  display: block;
+  width: 153px;
+}
+#foot .center ul li a:hover {
+  color: red;
+}
+#foot .center .contact {
+  float: left;
+  text-align: center;
+  margin: 32px 0 0 32px;
+}
+#foot .center .contact h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #575757;
+}
+#foot .center .contact p {
+  color: #575757;
+  margin-top: 14px;
+}
+#foot .center .contact h6 a {
+  width: 170px;
+  height: 34px;
+  display: block;
+  border-radius: 17px;
+  background: #333333;
+  color: white;
+  line-height: 34px;
+  margin-top: 14px;
+}
+#foot .center .contact h6 a i {
+  font-size: 16px;
+  margin-right: 10px;
+}
+#foot .center .contact h5 {
+  margin-top: 14px;
+  color: #575757;
+  height: 20px;
+}
+#foot .center .contact h5 a {
+  float: left;
+  margin-left: 7px;
+}
+#foot .center .contact h5 span {
+  float: left;
+}
+#foot .center .contact h5 p {
+  display: none;
+}
+#foot .center .contact h5 p img {
+  z-index: 10;
+}
+#foot .bott {
+  padding: 26px;
+}
+#foot .bott .lef {
+  float: left;
+  width: 102px;
+  height: 77px;
+}
+#foot .bott .mid {
+  float: left;
+  width: 800px;
+}
+#foot .bott .mid a {
+  margin: 0 7px;
+}
+#foot .bott .mid p span {
+  display: inline-block;
+  height: 10px;
+  width: 1px;
+  background: #d3d3d3;
+}
+#foot .bott .mid p a:hover {
+  color: red;
+}
+#foot .bott .mid h5 {
+  color: #ccc;
+  width: 1145px;
+  margin-top: 8px;
+}
+#foot .bott .rig {
+  float: left;
+  margin-left: 120px;
+}
