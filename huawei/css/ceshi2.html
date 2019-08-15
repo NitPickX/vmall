@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+				 .showdiv{
+			    width:1200px;
+			    height: 1200px;
+			    background-color: #666666;
+			    margin:0px auto;
+			}
+			.headdiv{
+			     width: 100%;
+			     height: 50px;
+			     position: sticky;
+			     top: 0px;
+			     background-color: #2aabd2;
+			}
+			.main{
+			     position: relative;
+			}
+			.headtop{
+			     height: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+        <div class="headtop">
+ 
+        </div>
+        <div class="headdiv">
+ 
+        </div>
+        <div class="showdiv">
+ 
+        </div>
+    </div>
+	<script type="text/javascript">
+		 var scrollT=document.body.scrollTop;
+    var headdiv=document.querySelector(".headdiv");
+    function s(){
+        if(document.documentElement.scrollTop >= 50){
+            headdiv.style.position="fixed";
+            headdiv.style.top="0px";
+            headdiv.style.zIndex="2";
+        }else{
+            headdiv.style.position="relative";
+        }
+    }
+    console.log(document.body);
+
+	</script>
+	<!-- <style>
+    .fixednav-592830 .mod27-nav li a{color:;padding: 0 15px;}
+    .fixednav-592830 .mod27-nav li.current a{color:; background: no-repeat center center ;}
+    </style>
+    <div class="mod27-nav-wrp" style="height: 120px; background: url(&quot;https://res1.vmallres.com/shopdc/pic/d1c30d2f-2ea7-4f6b-951f-8f465a7b56b1.gif&quot;) center center no-repeat; position: fixed; top: 0px;">
+        <div class="mod27-nav" style="height:120px;">
+            <ul id="fixedNav" class="clearfix" style="height:120px; width:1200px; line-height:120px;">
+                                                        <li class="current" style="width:16.666666666666668% ; min-width:10%">
+                                        <a href="https://www.vmall.com/huawei#part-2" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                <li style="width:16.666666666666668% ; min-width:10%" class="">
+                                        <a href="https://www.vmall.com/huawei#part-3" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                <li style="width:16.666666666666668% ; min-width:10%">
+                                        <a href="https://www.vmall.com/huawei#part-4" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                <li style="width:16.666666666666668% ; min-width:10%">
+                                        <a href="https://www.vmall.com/huawei#part-5" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                <li style="width:16.666666666666668% ; min-width:10%">
+                                        <a href="https://www.vmall.com/huawei#part-6" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                <li style="width:16.666666666666668% ; min-width:10%">
+                                        <a href="https://www.vmall.com/huawei#part-8" style="font-size:;" )=""><div style="  font-size:;"><span></span></div></a>
+                                    </li>
+                                        </ul>
+        </div>
+    </div>
+    <!-- /PC固定导航 -->
+ <div id="part-1" class="hrefs"></div>
+            <div class="huawei">
+        <h2 class="channel-title">
+                        <span>华为精品</span>
+                    </h2>
+                    <ul class="channel-nav ">
+                            </ul>
+                        </div>
+    </div><div class="J_mod J_mod_float mod-rightfloatnav rightfloatnav-592848" data-analytics="{&quot;Id&quot;:&quot;7&quot;,&quot;name&quot;:&quot;右浮动导航&quot;}">
+    <!-- PC右浮动导航 -->
+    <style>
+    .tool-Fixed {position: fixed !important; z-index: 500;top:20px; }
+    .mod-rightfloatnav {overflow: visible;}
+    </style>
+        <div class="mod4-code">
+        <div class="mod19-carnival-code" id="event-float-layout" style="top: 0px; right: -140px; width: 120px; display: block;">
+            <div id="event-float" class="J_float_body tool-Fixed">
+                                                    <p><a href="https://www.vmall.com/product/10086102942203.html" target="_blank" data-track="true"><img src="./华为专区_files/fd3b6170-f159-442d-b1b5-ea0f036c699f.png" alt="nova 5系列"></a></p>
+                                    <p><a href="https://www.vmall.com/huawei#part-7"><img src="./华为专区_files/e6d19f38-caeb-42bc-b661-d0f866b08980.png" alt="nova 5系列"></a></p>
+                                    <p><a href="https://sale.vmall.com/hwmate.html" target="_blank" data-track="true"><img src="./华为专区_files/9ba6ff93-9e64-4082-87bb-b73cbaae1f93.png" alt="nova 5系列"></a></p>
+                                            </div>
+        </div>
+    </div>
+    <!-- /PC右浮动导航 -->
+</div>
+</div>
+
+	</body>
+</html>
