@@ -1,37 +1,47 @@
-@charset "utf-8";
-/* CSS Document */
-html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,figure,figcaption,fieldset {
-	margin:0;	/* 外边距归零 */
-	padding:0;	/* 内边距归零 */
+body,html,a,img,h1,h2,h3,h4,h5,h6,p,ul,li,ol,
+dl,dt,dd,form,input,table,tr,td,span,i,em,b,
+strong{
+    margin: 0;
+    padding: 0;
 }
 body,html{
-	font:12px "微软雅黑",Arial;	/* 设置网页内字号及字体 */
-}
-h1,h2,h3,h4,h5,h6,b,strong{
-	font-weight:normal;			/* 清除加粗 */
-}
-i,em{
-	font-style:normal;			/* 清除倾斜 */
-}
-li{
-	list-style:none;			/* 清除项目符号 */
+    min-width: 1200px;
+    height: 100%;
+    font-size: 12px;
 }
 a{
-	text-decoration:none;		/* 清除下划线 */
-	color:#6d6d6d;
-}	
-input{
-	outline:none;				/* 清除input选中后蓝色框 */
+    text-decoration: none;
 }
+ul li{
+    list-style: none;
+}
+.fl{
+    float: left;
 
-/* 清除高度塌陷 */
-.clearfix{
-	*zoom:1;	
 }
-.clearfix:after{
-	content:' ';
-	display:block;
-	height:0;
-	overflow:hidden;
-	clear:both;	
+.fr{
+    float: right;
+}
+/*****使用em标签实现垂直居中*****/
+em{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+/****清除浮动****/
+.clear::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;/**为了解决浏览器在font-size小于18默认为18**/
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}
+/***文字省略号**/
+.ell{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

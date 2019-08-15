@@ -1,0 +1,141 @@
+@charset "UTF-8";
+.ct-match {
+  width: 100%;
+  overflow: hidden; }
+
+.ct-match-main {
+  padding-bottom: 28px;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ccc; }
+
+.ct-tuijian {
+  padding: 11px 0 19px 37px; }
+  .ct-tuijian span {
+    display: inline-block;
+    height: 30px;
+    padding: 0 9px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ca141d;
+    border-bottom: 1px solid #ca141d; }
+
+.ct-extend {
+  cursor: pointer;
+  height: 212px;
+  line-height: 18px;
+  text-align: center;
+  padding-left: 15px;
+  font-size: 12px; }
+
+.ct-extend-1, .ct-fanye-u ul li {
+  padding: 0 14.5px;
+  width: 120px;
+  height: 166px;
+  float: left; }
+  .ct-extend-1 img, .ct-fanye-u ul li img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    margin: 0 10px; }
+  .ct-extend-1 p, .ct-fanye-u ul li p {
+    width: 104px;
+    height: 36px;
+    white-space: normal;
+    margin: 6px 8px;
+    color: #3a3a3a;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .ct-extend-1 span, .ct-fanye-u ul li span {
+    color: #ca141d; }
+
+.ct-matchjia {
+  height: 100px;
+  width: 46px;
+  text-align: center;
+  float: left; }
+  .ct-matchjia span {
+    display: block;
+    font-weight: 800;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    margin: 40px auto 0px; }
+
+.ct-fanye {
+  height: 212px;
+  width: 789px;
+  float: left;
+  height: 167px; }
+
+.ct-zuofan, .ct-youfan {
+  width: 22px;
+  height: 75px;
+  float: left;
+  background: #ccc;
+  margin-top: 10px; }
+  .ct-zuofan span, .ct-youfan span {
+    display: block;
+    color: #ffd;
+    margin-top: 27px;
+    font-size: 14px; }
+
+.ct-youfan {
+  float: right; }
+  .ct-youfan span {
+    line-height: 19px; }
+    .ct-youfan span input {
+      vertical-align: center; }
+
+.ct-fanye-u {
+  width: 745px;
+  height: 167px;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+  .ct-fanye-u ul {
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .ct-fanye-u ul li span {
+      display: block;
+      height: 19px; }
+      .ct-fanye-u ul li span input {
+        vertical-align: middle; }
+
+.myClass {
+  -moz-user-select: none;
+  /*火狐*/
+  -webkit-user-select: none;
+  /*webkit浏览器*/
+  -ms-user-select: none;
+  /*IE10*/
+  -khtml-user-select: none;
+  /*早期浏览器*/
+  user-select: none; }
+
+.ct-jiesuan {
+  margin-top: 11px;
+  padding-left: 36px;
+  width: 127px;
+  float: left;
+  text-align: left; }
+  .ct-jiesuan p {
+    font-size: 12px; }
+    .ct-jiesuan p span {
+      line-height: 24px;
+      font-size: 16px;
+      color: red; }
+  .ct-jiesuan h6 {
+    width: 120px;
+    height: 30px;
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffd; }
+  .ct-jiesuan .ct-addtocar1 {
+    background: #fc600c; }
+  .ct-jiesuan .ct-justbuy1 {
+    background: #ca151d; }

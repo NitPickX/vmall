@@ -1,0 +1,207 @@
+.ct-select {
+  padding-left: 30px;
+  height: 697px;
+  float: left;
+  overflow: hidden;
+  width: 700px; }
+  .ct-select h1 {
+    width: 100%;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    max-height: 94px;
+    overflow: hidden;
+    padding-bottom: 7px; }
+
+.ct-yingcun {
+  padding-right: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 12px;
+  display: block; }
+
+.ct-price {
+  background: #ecebeb;
+  height: 68px;
+  cursor: pointer;
+  padding: 14px 0 3px 10px; }
+  .ct-price p {
+    height: 30px;
+    padding-bottom: 4px; }
+    .ct-price p span {
+      display: inline-block;
+      font-size: 12px;
+      line-height: 30px;
+      padding: 0;
+      padding-right: 40px;
+      vertical-align: top; }
+    .ct-price p strong {
+      color: red;
+      font-size: 24px;
+      line-height: 30px; }
+    .ct-price p i {
+      font-style: normal;
+      font-size: 12px;
+      display: inline-block;
+      line-height: 16px;
+      height: 16px;
+      border: 1px solid red;
+      color: red;
+      margin-top: 7px; }
+
+.ct-shuoming {
+  font-size: 12px; }
+  .ct-shuoming .ct-fu {
+    margin: 20px 0 10px;
+    height: 24px; }
+  .ct-shuoming p {
+    height: 18px;
+    line-height: 16px;
+    color: #3a3a3a;
+    padding-left: 10px; }
+    .ct-shuoming p span {
+      padding-right: 40px; }
+    .ct-shuoming p i {
+      display: inline-block;
+      font-size: 14px;
+      font-style: normal;
+      padding-right: 5px;
+      color: #3a3a3a;
+      font-weight: 600; }
+    .ct-shuoming p em {
+      font-style: normal;
+      padding-right: 18px; }
+
+.ct-parameter {
+  margin-top: 5px;
+  width: 700px;
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+  color: #3a3a3a;
+  padding-left: 10px; }
+  .ct-parameter div {
+    overflow: hidden; }
+    .ct-parameter div ul {
+      width: 612px;
+      font-size: 12px;
+      float: left; }
+      .ct-parameter div ul li {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        padding: 0 12px;
+        float: left;
+        cursor: pointer;
+        border: 1px solid #ccc; }
+
+.ct-span, .ct-span1, .ct-span2, .ct-span3, .ct-span4, .ct-xiangqing1 {
+  padding-right: 40px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  font-size: 12px; }
+
+.ct-span1 {
+  line-height: 40px; }
+
+.ct-span2 {
+  line-height: 28px; }
+
+.ct-color li {
+  width: 72px;
+  height: 38px;
+  margin-bottom: 10px; }
+  .ct-color li div {
+    margin-top: 4px;
+    float: left;
+    height: 30px;
+    width: 30px; }
+    .ct-color li div img {
+      width: 100%;
+      height: 100%; }
+  .ct-color li span {
+    padding-left: 6px;
+    display: block;
+    float: right;
+    line-height: 38px; }
+
+.ct-version li {
+  height: 28px; }
+
+.ct-version li span {
+  line-height: 28px; }
+
+.ct-security i {
+  padding-left: 10px;
+  font-style: normal;
+  font-size: 12px; }
+
+.ct-span3 {
+  line-height: 28px;
+  margin-right: 24px; }
+
+.ct-recommend .ct-version li {
+  border: none;
+  background: #ccc;
+  padding: 0 20px; }
+
+.ct-xiangqing {
+  overflow: hidden; }
+
+.ct-span4 {
+  padding-right: 16px;
+  line-height: 28px; }
+
+.ct-xiangqing1 {
+  padding-right: 0;
+  color: red; }
+
+.ct-count {
+  margin-top: 10px;
+  overflow: hidden; }
+  .ct-count div {
+    float: left;
+    margin: 0 10px;
+    height: 45px;
+    width: 63px;
+    cursor: pointer;
+    border: 1px solid #ccc; }
+    .ct-count div .ct-number {
+      border-right: 1px solid #ccc;
+      display: block;
+      height: 45px;
+      width: 41px;
+      float: left;
+      text-align: center;
+      line-height: 43px; }
+    .ct-count div p {
+      height: 45px;
+      width: 21px;
+      float: left; }
+      .ct-count div p span {
+        text-align: center;
+        line-height: 21px;
+        height: 21px;
+        width: 20px;
+        display: block;
+        font-size: 12px; }
+      .ct-count div p .jia {
+        font-weight: 600;
+        border-bottom: 1px solid #ccc; }
+
+.ct-addtocar, .ct-justbuy {
+  float: left;
+  display: block;
+  text-align: center;
+  margin-right: 10px;
+  height: 46px;
+  width: 172px;
+  color: #fff;
+  background: #fc600c;
+  font-size: 18px;
+  line-height: 46px;
+  cursor: pointer; }
+.ct-count  .ct-addtocar:hover{
+    color: #fff;
+  }
+.ct-justbuy {
+  background: #ca151d; }

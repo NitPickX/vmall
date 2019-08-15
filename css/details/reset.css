@@ -1,0 +1,32 @@
+div,img,ul,li,form,ol,table,tr,dt,dd,a,input,select,option,form,h1,h2,h3,h4,h5,h6,span,p,em,i,body,html{
+padding:0;
+margin:0;
+}
+body,html{
+    font:normal normal 16px/1.5em "微软雅黑";
+    color:#333;
+}
+a{
+text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+ul li,ol li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear::after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;/**为了解决浏览器在font-size小于18默认为18**/
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 1px;
+}

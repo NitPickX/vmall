@@ -1,0 +1,486 @@
+[
+    {
+        "box":"box2",
+        "more":[
+            {"imgurl":"image/imgs/xm1.png","code":"re1","prop":[
+                {"imgs":"image/imgs/one1.png","mark":"one1"},
+                {"imgs":"image/imgs/one2.png","mark":"one2"},
+                {"imgs":"image/imgs/one3.png","mark":"one3"},
+                {"imgs":"image/imgs/one4.png","mark":"one4"},
+                {"imgs":"image/imgs/one5.png","mark":"one5"},
+                {"imgs":"image/imgs/one6.png","mark":"one6"} 
+            ]},
+            {"imgurl":"image/imgs/xm2.jpg","code":"re2","prop":[
+                {"imgs":"image/imgs/two1.jpg","mark":"two1"},
+                {"imgs":"image/imgs/two2.png","mark":"two2"},
+                {"imgs":"image/imgs/two3.png","mark":"two3"},
+                {"imgs":"image/imgs/two4.png","mark":"two4"},
+                {"imgs":"image/imgs/two5.png","mark":"two5"},
+                {"imgs":"image/imgs/two6.png","mark":"two6"} 
+            ]},
+            {"imgurl":"image/imgs/xm3.jpg","code":"re3","prop":[
+                {"imgs":"image/imgs/three1.png","mark":"three1"},
+                {"imgs":"image/imgs/three2.jpg","mark":"three2"},
+                {"imgs":"image/imgs/three3.jpg","mark":"three3"},
+                {"imgs":"image/imgs/three4.jpg","mark":"three4"},
+                {"imgs":"image/imgs/three5.jpg","mark":"three5"},
+                {"imgs":"image/imgs/three6.jpg","mark":"three6"} 
+            ]},
+            {"imgurl":"image/imgs/xm4.jpg","code":"re4","prop":[
+                {"imgs":"image/imgs/four1.jpg","mark":"four1"},
+                {"imgs":"image/imgs/four2.png","mark":"four2"},
+                {"imgs":"image/imgs/four3.png","mark":"four3"},
+                {"imgs":"image/imgs/four4.jpg","mark":"four4"},
+                {"imgs":"image/imgs/four5.jpg","mark":"four5"},
+                {"imgs":"image/imgs/four6.jpg","mark":"four6"} 
+            ]}
+
+        ]
+    },
+    {
+        "box":"box3",
+        "more":[
+            {"imgurl":"image/imgs/xm5.png","code":"dan1","prop":[
+                {"imgs":"image/imgs/a1.png","mark":"a1"},
+                {"imgs":"image/imgs/a2.png","mark":"a2"},
+                {"imgs":"image/imgs/a3.png","mark":"a3"},
+                {"imgs":"image/imgs/a4.png","mark":"a4"},
+                {"imgs":"image/imgs/a5.png","mark":"a5"},
+                {"imgs":"image/imgs/a6.png","mark":"a6"} 
+            ]},
+            {"xin":"新品","title":"荣耀20 PRO","desc":"6期免息|128GB赠礼品 ", "imgurl":"image/imgs/xm6.png","price":"￥3199","code":"dan2","prop":[
+                {"imgs":"image/imgs/b1.jpg","mark":"b1"},
+                {"imgs":"image/imgs/b2.png","mark":"b2"},
+                {"imgs":"image/imgs/b3.png","mark":"b3"},
+                {"imgs":"image/imgs/b4.png","mark":"b4"},
+                {"imgs":"image/imgs/b5.png","mark":"b5"},
+                {"imgs":"image/imgs/b6.png","mark":"b6"}
+            ]},
+            {"xin":"新品","title":"HUAWEI nova 5","desc":"订金50抵100 V2-V5用户赠延保   ", "imgurl":"image/imgs/xm7.png","price":"￥2799","code":"dan3","prop":[
+                {"imgs":"image/imgs/c1.jpg","mark":"c1"},
+                {"imgs":"image/imgs/c2.png","mark":"c2"},
+                {"imgs":"image/imgs/c3.png","mark":"c3"},
+                {"imgs":"image/imgs/c4.jpg","mark":"c4"},
+                {"imgs":"image/imgs/c5.jpg","mark":"c5"},
+                {"imgs":"image/imgs/c6.jpg","mark":"c6"}
+            ]},
+            {"title":"荣耀8X","desc":"最高优惠300", "imgurl":"image/imgs/xm8.png","price":"￥1199","code":"dan4","prop":[
+                {"imgs":"image/imgs/d1.png","mark":"d1"},
+                {"imgs":"image/imgs/d2.jpg","mark":"d2"},
+                {"imgs":"image/imgs/d3.jpg","mark":"d3"},
+                {"imgs":"image/imgs/d4.jpg","mark":"d4"},
+                {"imgs":"image/imgs/d5.jpg","mark":"d5"},
+                {"imgs":"image/imgs/d6.jpg","mark":"d6"}
+            ]},
+            {"xin":"直降","title":"HUAWEI Mate 20 Pro","desc":"直降400|享6期免息", "imgurl":"image/imgs/xm9.png","price":"￥5099","code":"dan5","prop":[
+                {"imgs":"image/imgs/e1.png","mark":"e1"},
+                {"imgs":"image/imgs/e2.png","mark":"e2"},
+                {"imgs":"image/imgs/e3.png","mark":"e3"},
+                {"imgs":"image/imgs/e4.png","mark":"e4"},
+                {"imgs":"image/imgs/e5.png","mark":"e5"},
+                {"imgs":"image/imgs/e6.png","mark":"e6"}
+            ]},
+            {"xin":"爆款","title":"荣耀V20","desc":"最高优惠1000元 6期免息", "imgurl":"image/imgs/xm10.png","price":"￥2399","code":"dan6","prop":[
+                {"imgs":"image/imgs/f1.png","mark":"f1"},
+                {"imgs":"image/imgs/f2.png","mark":"f2"},
+                {"imgs":"image/imgs/f3.png","mark":"f3"},
+                {"imgs":"image/imgs/f4.jpg","mark":"f4"},
+                {"imgs":"image/imgs/f5.jpg","mark":"f5"},
+                {"imgs":"image/imgs/f6.jpg","mark":"f6"}
+            ]},
+            {"xin":"直降","title":"HUAWEI Mate 20","desc":"直降300|享6期免息", "imgurl":"image/imgs/xm11.png","price":"￥3199","code":"dan7","prop":[
+                {"imgs":"image/imgs/g1.png","mark":"g1"},
+                {"imgs":"image/imgs/g2.png","mark":"g2"},
+                {"imgs":"image/imgs/g3.png","mark":"g3"},
+                {"imgs":"image/imgs/g4.png","mark":"g4"},
+                {"imgs":"image/imgs/g5.png","mark":"g5"},
+                {"imgs":"image/imgs/g6.png","mark":"g6"}
+            ]},
+            {"xin":"爆款","title":"荣耀畅玩8","desc":"新品首销赠红酒券", "imgurl":"image/imgs/xm12.png","price":"￥599","code":"dan8","prop":[
+                {"imgs":"image/imgs/h1.jpg","mark":"h1"},
+                {"imgs":"image/imgs/h2.png","mark":"h2"},
+                {"imgs":"image/imgs/h3.png","mark":"h3"},
+                {"imgs":"image/imgs/h4.png","mark":"h4"},
+                {"imgs":"image/imgs/h5.png","mark":"h5"},
+                {"imgs":"image/imgs/h6.png","mark":"h6"}
+            ]},
+            {"xin":"新品","title":"HUAWEI nova 5i","desc":"限量赠配件好礼", "imgurl":"image/imgs/xm13.png","price":"￥1999","code":"dan9","prop":[
+                {"imgs":"image/imgs/i1.jpg","mark":"i1"},
+                {"imgs":"image/imgs/i2.png","mark":"i2"},
+                {"imgs":"image/imgs/i3.png","mark":"i3"},
+                {"imgs":"image/imgs/i4.png","mark":"i4"},
+                {"imgs":"image/imgs/i5.png","mark":"i5"},
+                {"imgs":"image/imgs/i6.png","mark":"i6"}
+            ]}
+            
+        ]
+    },
+
+
+
+    {
+        "box":"box4",
+        "more":[
+
+            {"xin":"新品上市","title":"新品上市  订金100抵200  ","desc":"华为平板 M6 8.4英寸", "imgurl":"image/imgs/xm14.png","price":"￥1999","code":"jing1","prop":[
+                {"imgs":"image/imgs/j1.png","mark":"j1"},
+                {"imgs":"image/imgs/j2.png","mark":"j2"},
+                {"imgs":"image/imgs/j3.png","mark":"j3"},
+                {"imgs":"image/imgs/j4.png","mark":"j4"},
+                {"imgs":"image/imgs/j5.png","mark":"j5"},
+                {"imgs":"image/imgs/j6.png","mark":"j6"}
+            ]},
+            {"xin":"免息","title":"新品享3期免息","desc":"荣耀MagicBook 2019 锐龙版", "imgurl":"image/imgs/xm15.png","price":"￥3999","code":"jing2","prop":[
+                {"imgs":"image/imgs/k1.png","mark":"k1"},
+                {"imgs":"image/imgs/k2.png","mark":"k2"},
+                {"imgs":"image/imgs/k3.png","mark":"k3"},
+                {"imgs":"image/imgs/k4.png","mark":"k4"},
+                {"imgs":"image/imgs/k5.png","mark":"k5"},
+                {"imgs":"image/imgs/k6.png","mark":"k6"}
+            ]},
+            {"title":"仲夏紫独家预订  订金20抵30  ","desc":"HUAWEI FreeLace 无线耳机", "imgurl":"image/imgs/xm16.png","price":"￥499","code":"jing3","prop":[
+                {"imgs":"image/imgs/l1.png","mark":"l1"},
+                {"imgs":"image/imgs/l2.png","mark":"l2"},
+                {"imgs":"image/imgs/l3.png","mark":"l3"}
+            ]},
+            {"title":"新品抢先预定","desc":"【订金】荣耀手环 5 标准版", "imgurl":"image/imgs/xm17.png","price":"￥1199","code":"jing4","prop":[
+                {"imgs":"image/imgs/m1.png","mark":"m1"},
+                {"imgs":"image/imgs/m2.png","mark":"m2"},
+                {"imgs":"image/imgs/m3.png","mark":"m3"},
+                {"imgs":"image/imgs/m4.png","mark":"m4"},
+                {"imgs":"image/imgs/m5.png","mark":"m5"}
+            ]},
+            {"xin":"免息","title":"新品上市  稀缺货源","desc":"华为平板 M6 10.8英寸", "imgurl":"image/imgs/xm18.png","price":"￥2299","code":"jing5","prop":[
+                {"imgs":"image/imgs/n1.png","mark":"n1"},
+                {"imgs":"image/imgs/n2.png","mark":"n2"},
+                {"imgs":"image/imgs/n3.png","mark":"n3"},
+                {"imgs":"image/imgs/n4.png","mark":"n4"},
+                {"imgs":"image/imgs/n5.png","mark":"n5"},
+                {"imgs":"image/imgs/n6.png","mark":"n6"}
+            ]},
+
+
+            {"title":"最高降100+6期免息","desc":"荣耀平板5 10.1英寸", "imgurl":"image/imgs/xm19.png","price":"￥1299","code":"jing6","prop":[
+                {"imgs":"image/imgs/o1.png","mark":"o1"},
+                {"imgs":"image/imgs/o2.png","mark":"o2"},
+                {"imgs":"image/imgs/o3.png","mark":"o3"},
+                {"imgs":"image/imgs/o4.png","mark":"o4"},
+                {"imgs":"image/imgs/o5.png","mark":"o5"},
+                {"imgs":"image/imgs/o6.png","mark":"o6"}
+            ]},
+            {"title":"强劲续航 智能提醒","desc":"HUAWEI WATCH GT", "imgurl":"image/imgs/xm20.png","price":"￥1288","code":"jing7","prop":[
+                {"imgs":"image/imgs/p1.png","mark":"p1"},
+                {"imgs":"image/imgs/p2.png","mark":"p2"},
+                {"imgs":"image/imgs/p3.png","mark":"p3"},
+                {"imgs":"image/imgs/p4.png","mark":"p4"},
+                {"imgs":"image/imgs/p5.png","mark":"p5"}
+            ]},
+            {"title":"到手价169起","desc":"荣耀手环4", "imgurl":"image/imgs/xm21.png","price":"￥169","code":"jing8","prop":[
+                {"imgs":"image/imgs/q1.png","mark":"q1"},
+                {"imgs":"image/imgs/q2.jpg","mark":"q2"},
+                {"imgs":"image/imgs/q3.jpg","mark":"q3"},
+                {"imgs":"image/imgs/q4.jpg","mark":"q4"},
+                {"imgs":"image/imgs/q5.jpg","mark":"q5"}
+            ]},
+            {"title":"享3期分期免息","desc":"华为平板 M5 青春版", "imgurl":"image/imgs/xm22.png","price":"￥1899","code":"jing9","prop":[
+                {"imgs":"image/imgs/r1.png","mark":"r1"},
+                {"imgs":"image/imgs/r2.png","mark":"r2"},
+                {"imgs":"image/imgs/r3.png","mark":"r3"},
+                {"imgs":"image/imgs/r4.png","mark":"r4"},
+                {"imgs":"image/imgs/r5.png","mark":"r5"}
+            ]},
+            {"title":"到手价799起 3期免息","desc":"荣耀手表魔法系列", "imgurl":"image/imgs/xm23.png","price":"￥799","code":"jing10","prop":[
+                {"imgs":"image/imgs/s1.png","mark":"s1"},
+                {"imgs":"image/imgs/s2.jpg","mark":"s2"},
+                {"imgs":"image/imgs/s3.png","mark":"s3"},
+                {"imgs":"image/imgs/s4.png","mark":"s4"},
+                {"imgs":"image/imgs/s5.png","mark":"s5"},
+                {"imgs":"image/imgs/s6.png","mark":"s6"}
+            ]},
+            {"title":"享3期分期免息","desc":"HUAWEI MateBook E 2019款", "imgurl":"image/imgs/xm24.png","price":"￥4999","code":"jing11","prop":[
+                {"imgs":"image/imgs/t1.png","mark":"t1"},
+                {"imgs":"image/imgs/t2.png","mark":"t2"},
+                {"imgs":"image/imgs/t3.png","mark":"t3"},
+                {"imgs":"image/imgs/t4.png","mark":"t4"},
+                {"imgs":"image/imgs/t5.png","mark":"t5"},
+                {"imgs":"image/imgs/t6.png","mark":"t6"}
+            ]},
+            {"title":"新品尝鲜","desc":"荣耀智能体脂秤WiFi版", "imgurl":"image/imgs/xm25.png","price":"￥199","code":"jing12","prop":[
+                {"imgs":"image/imgs/u1.png","mark":"u1"},
+                {"imgs":"image/imgs/u2.png","mark":"u2"},
+                {"imgs":"image/imgs/u3.png","mark":"u3"},
+                {"imgs":"image/imgs/u4.png","mark":"u4"},
+                {"imgs":"image/imgs/u5.png","mark":"u5"},
+                {"imgs":"image/imgs/u6.png","mark":"u6"}
+            ]},
+            {"title":"稀缺货源  享3期免息","desc":"HUAWEI MateBook 13", "imgurl":"image/imgs/xm26.png","price":"￥5699","code":"jing13","prop":[
+                {"imgs":"image/imgs/v1.png","mark":"v1"},
+                {"imgs":"image/imgs/v2.png","mark":"v2"},
+                {"imgs":"image/imgs/v3.png","mark":"v3"},
+                {"imgs":"image/imgs/v4.png","mark":"v4"},
+                {"imgs":"image/imgs/v5.png","mark":"v5"},
+                {"imgs":"image/imgs/v6.png","mark":"v6"}
+            ]},
+            {"title":"最高降100+6期免息","desc":"荣耀平板5 8英寸", "imgurl":"image/imgs/xm27.png","price":"￥999","code":"jing14","prop":[
+                {"imgs":"image/imgs/w1.png","mark":"w1"},
+                {"imgs":"image/imgs/w2.jpg","mark":"w2"},
+                {"imgs":"image/imgs/w3.jpg","mark":"w3"},
+                {"imgs":"image/imgs/w4.png","mark":"w4"},
+                {"imgs":"image/imgs/w5.jpg","mark":"w5"},
+                {"imgs":"image/imgs/w6.png","mark":"w6"}
+            ]},
+            {"title":"nova迷你小音箱","desc":"华为mini 蓝牙音箱", "imgurl":"image/imgs/xm28.png","price":"￥129","code":"jing15","prop":[
+                {"imgs":"image/imgs/x1.png","mark":"x1"},
+                {"imgs":"image/imgs/x2.png","mark":"x2"},
+                {"imgs":"image/imgs/x3.png","mark":"x3"},
+                {"imgs":"image/imgs/x4.png","mark":"x4"},
+                {"imgs":"image/imgs/x5.png","mark":"x5"}
+            ]}
+       ]
+    },
+
+
+
+    {
+        "box":"box5",
+        "more":[
+
+            { "imgurl":"image/imgs/shou1.png","code":"shou1","prop":[
+                {"imgs":"image/imgs/za1.png","mark":"za1"},
+                {"imgs":"image/imgs/za2.png","mark":"za2"},
+                {"imgs":"image/imgs/za3.png","mark":"za3"},
+                {"imgs":"image/imgs/za4.png","mark":"za4"},
+                {"imgs":"image/imgs/za5.png","mark":"za5"},
+                {"imgs":"image/imgs/za6.png","mark":"za6"}
+            ]},
+            {"xin":"爆款","title":"荣耀10青春版  ","desc":"最高优惠500 ", "imgurl":"image/imgs/shou2.png","price":"￥999","code":"shou2","prop":[
+                {"imgs":"image/imgs/zb1.png","mark":"zb1"},
+                {"imgs":"image/imgs/zb2.png","mark":"zb2"},
+                {"imgs":"image/imgs/zb3.png","mark":"zb3"},
+                {"imgs":"image/imgs/zb4.png","mark":"zb4"},
+                {"imgs":"image/imgs/zb5.png","mark":"zb5"},
+                {"imgs":"image/imgs/zb6.png","mark":"zb6"}
+            ]},
+            {"xin":"直降","title":"HUAWEI Mate 20 X  ","desc":"直降400|6期免息 ", "imgurl":"image/imgs/shou3.png","price":"￥4099","code":"shou3","prop":[
+                {"imgs":"image/imgs/zc1.png","mark":"zc1"},
+                {"imgs":"image/imgs/zc2.png","mark":"zc2"},
+                {"imgs":"image/imgs/zc3.png","mark":"zc3"},
+                {"imgs":"image/imgs/zc4.png","mark":"zc4"},
+                {"imgs":"image/imgs/zc5.png","mark":"zc5"},
+                {"imgs":"image/imgs/zc6.png","mark":"zc6"}
+            ]},
+            {"title":"荣耀Magic2 ","desc":"最高优惠1700元 ", "imgurl":"image/imgs/shou4.png","price":"￥2499","code":"shou4","prop":[
+                {"imgs":"image/imgs/zd1.png","mark":"zd1"},
+                {"imgs":"image/imgs/zd2.png","mark":"zd2"},
+                {"imgs":"image/imgs/zd3.png","mark":"zd3"},
+                {"imgs":"image/imgs/zd4.png","mark":"zd4"},
+                {"imgs":"image/imgs/zd5.png","mark":"zd5"},
+                {"imgs":"image/imgs/zd6.png","mark":"zd6"}
+            ]},
+            {"xin":"爆款","title":"HUAWEI nova 4 ","desc":"4800万超广角三摄 ", "imgurl":"image/imgs/shou5.png","price":"￥2799","code":"shou5","prop":[
+                {"imgs":"image/imgs/ze1.png","mark":"ze1"},
+                {"imgs":"image/imgs/ze2.jpg","mark":"ze2"},
+                {"imgs":"image/imgs/ze3.jpg","mark":"ze3"},
+                {"imgs":"image/imgs/ze4.jpg","mark":"ze4"},
+                {"imgs":"image/imgs/ze5.jpg","mark":"ze5"},
+                {"imgs":"image/imgs/ze6.jpg","mark":"ze6"}
+            ]},
+            {"xin":"热卖新品","title":"荣耀畅玩8A","desc":"到手价699 赠手机壳 ", "imgurl":"image/imgs/shou6.png","price":"￥699","code":"shou6","prop":[
+                {"imgs":"image/imgs/zf1.png","mark":"zf1"},
+                {"imgs":"image/imgs/zf2.jpg","mark":"zf2"},
+                {"imgs":"image/imgs/zf3.jpg","mark":"zf3"},
+                {"imgs":"image/imgs/zf4.jpg","mark":"zf4"},
+                {"imgs":"image/imgs/zf5.jpg","mark":"zf5"},
+                {"imgs":"image/imgs/zf6.jpg","mark":"zf6"}
+            ]},
+            {"title":"HUAWEI nova 4e","desc":"3200万立体美颜 AI超广角三摄 ", "imgurl":"image/imgs/shou7.png","price":"￥1999","code":"shou7","prop":[
+                {"imgs":"image/imgs/zj1.png","mark":"zj1"},
+                {"imgs":"image/imgs/zj2.jpg","mark":"zj2"},
+                {"imgs":"image/imgs/zj3.jpg","mark":"zj3"},
+                {"imgs":"image/imgs/zj4.jpg","mark":"zj4"},
+                {"imgs":"image/imgs/zj5.jpg","mark":"zj5"},
+                {"imgs":"image/imgs/zj6.jpg","mark":"zj6"}
+            ]},
+            {"title":"荣耀8X Max","desc":"最高优惠400", "imgurl":"image/imgs/shou8.png","price":"￥1399","code":"shou8","prop":[
+                {"imgs":"image/imgs/zh1.png","mark":"zh1"},
+                {"imgs":"image/imgs/zh2.jpg","mark":"zh2"},
+                {"imgs":"image/imgs/zh3.jpg","mark":"zh3"},
+                {"imgs":"image/imgs/zh4.jpg","mark":"zh4"},
+                {"imgs":"image/imgs/zh5.jpg","mark":"zh5"},
+                {"imgs":"image/imgs/zh6.jpg","mark":"zh6"}
+            ]},
+            {"title":"华为畅享 9e","desc":"32G领券减50", "imgurl":"image/imgs/shou9.png","price":"￥799","code":"shou9","prop":[
+                {"imgs":"image/imgs/zi1.png","mark":"zi1"},
+                {"imgs":"image/imgs/zi2.png","mark":"zi2"},
+                {"imgs":"image/imgs/zi3.png","mark":"zi3"},
+                {"imgs":"image/imgs/zi4.png","mark":"zi4"},
+                {"imgs":"image/imgs/zi5.png","mark":"zi5"},
+                {"imgs":"image/imgs/zi6.png","mark":"zi6"}
+            ]},
+            {"xin":"爆款","title":"荣耀Note10","desc":"最高优惠900元", "imgurl":"image/imgs/shou10.png","price":"￥1899","code":"shou10","prop":[
+                {"imgs":"image/imgs/zg1.png","mark":"zg1"},
+                {"imgs":"image/imgs/zg2.png","mark":"zg2"},
+                {"imgs":"image/imgs/zg3.jpg","mark":"zg3"},
+                {"imgs":"image/imgs/zg4.jpg","mark":"zg4"},
+                {"imgs":"image/imgs/zg5.jpg","mark":"zg5"},
+                {"imgs":"image/imgs/zg6.jpg","mark":"zg6"}
+            ]},
+            {"title":"华为畅享 9S","desc":"部分领券减200", "imgurl":"image/imgs/shou11.png","price":"￥1499","code":"shou11","prop":[
+                {"imgs":"image/imgs/zk1.png","mark":"zk1"},
+                {"imgs":"image/imgs/zk2.png","mark":"zk2"},
+                {"imgs":"image/imgs/zk3.png","mark":"zk3"},
+                {"imgs":"image/imgs/zk4.png","mark":"zk4"},
+                {"imgs":"image/imgs/zk5.png","mark":"zk5"},
+                {"imgs":"image/imgs/zk6.png","mark":"zk6"}
+            ]},
+            {"xin":"热卖","title":"荣耀畅玩7","desc":"下单立减50元", "imgurl":"image/imgs/shou12.png","price":"￥599","code":"shou12","prop":[
+                {"imgs":"image/imgs/zl1.png","mark":"zl1"},
+                {"imgs":"image/imgs/zl2.png","mark":"zl2"},
+                {"imgs":"image/imgs/zl3.jpg","mark":"zl3"},
+                {"imgs":"image/imgs/zl4.jpg","mark":"zl4"},
+                {"imgs":"image/imgs/zl5.jpg","mark":"zl5"},
+                {"imgs":"image/imgs/zl6.jpg","mark":"zl6"}
+            ]},
+            {"title":"华为畅享9","desc":"32G领券减150", "imgurl":"image/imgs/shou13.png","price":"￥1099","code":"shou13","prop":[
+                {"imgs":"image/imgs/zm1.png","mark":"zm1"},
+                {"imgs":"image/imgs/zm2.jpg","mark":"zm2"},
+                {"imgs":"image/imgs/zm3.jpg","mark":"zm3"},
+                {"imgs":"image/imgs/zm4.jpg","mark":"zm4"},
+                {"imgs":"image/imgs/zm5.jpg","mark":"zm5"},
+                {"imgs":"image/imgs/zm6.jpg","mark":"zm6"}
+            ]},
+            {"xin":"超值千元机","title":"荣耀畅玩8C","desc":"最高优惠300", "imgurl":"image/imgs/shou14.png","price":"￥799","code":"shou14","prop":[
+                {"imgs":"image/imgs/zn1.png","mark":"zn1"},
+                {"imgs":"image/imgs/zn2.png","mark":"zn2"},
+                {"imgs":"image/imgs/zn3.png","mark":"zn3"},
+                {"imgs":"image/imgs/zn4.png","mark":"zn4"},
+                {"imgs":"image/imgs/zn5.png","mark":"zn5"},
+                {"imgs":"image/imgs/zn6.png","mark":"zn6"}
+            ]},
+            {"title":"华为麦芒8","desc":"2400万超广角AI三摄", "imgurl":"image/imgs/shou15.png","price":"￥1899","code":"shou15","prop":[
+                {"imgs":"image/imgs/zo1.png","mark":"zo1"},
+                {"imgs":"image/imgs/zo2.png","mark":"zo2"},
+                {"imgs":"image/imgs/zo3.png","mark":"zo3"},
+                {"imgs":"image/imgs/zo4.png","mark":"zo4"},
+                {"imgs":"image/imgs/zo5.png","mark":"zo5"},
+                {"imgs":"image/imgs/zo6.png","mark":"zo6"}
+            ]}
+        ]
+    },
+    {
+        "box":"box6",
+        "more":[
+                {"imgurl":"img/index/computer1.jpg"},
+                {"title":"HUAWEI MateBook X Pro","desc":"2019 款 享3期免息 ", "imgurl":"img/index/computer2.png","price":"¥7999"},
+                {"title":"荣耀MagicBook 2019","desc":"性新升级 15小时长续航 ", "imgurl":"img/index/computer3.png","price":"¥3999"},
+                {"title":"HUAWEI MateBook E 2019款","desc":"现货速发 享3期免息 ", "imgurl":"img/index/computer4.png","price":"¥3999"},
+                {"title":"HUAWEI MateBook D","desc":"赠配件礼包 享3期免息 ", "imgurl":"img/index/computer5.png","price":"¥5188"},
+                {"title":"荣耀MagicBook 2019 锐龙版","desc":"热销爆款 限量销售", "imgurl":"img/index/computer6.png","price":"¥4299"},
+                {"title":"HUAWEI MateBook 14","desc":"享3期免息 ", "imgurl":"img/index/computer7.png","price":"¥5999"},
+                {"title":"荣耀MagicBook","desc":"12小时长续航 ", "imgurl":"img/index/computer8.png","price":"¥4699"},
+                {"title":"HUAWEI MateBook 13","desc":"享3期免息 ", "imgurl":"img/index/computer9.png","price":"¥5699"},
+                {"title":"HUAWEI MateBook X Pro","desc":"2019 款 享3期免息 ", "imgurl":"img/index/computer10.png","price":"¥8999"}
+        ]
+    },
+    {
+        "box":"box7",
+        "more":[
+            { "imgurl":"img/index/pad1.png"},
+            {"title":"荣耀平板5 10.1英寸","desc":"限时降200+6期免息", "imgurl":"img/index/pad2.png","price":"¥1399"},
+            {"title":"华为平板 M6 10.8英寸","desc":"新品上市 享3期免息 ", "imgurl":"img/index/pad3.png","price":"¥2299"},
+            {"title":"荣耀平板5 8英寸","desc":"麒麟710芯片 全高清屏 ", "imgurl":"img/index/pad4.png","price":"¥1099"},
+            {"title":"华为平板 M5 青春版 10.1英寸","desc":"享3期免息 ", "imgurl":"img/index/pad5.png","price":"¥1899"},
+            {"title":"华为平板 M5 青春版 8.0英寸","desc":"现货速发 享3期免息 ", "imgurl":"img/index/pad6.png","price":"¥1199"},
+            {"title":"荣耀Waterplay","desc":"最高降300+3期免息", "imgurl":"img/index/pad7.png","price":"¥1599"},
+            {"title":"华为畅享平板","desc":"现货速发 享3期免息 ", "imgurl":"img/index/pad8.png","price":"¥1299"},
+            {"title":"荣耀畅玩平板2 9.6英","desc":"护眼滤蓝光高清大屏 ", "imgurl":"img/index/pad9.png","price":"¥1099"},
+            {"title":"华为平板 M6 8.4英寸","desc":"新品上市 享3期免息 ", "imgurl":"img/index/pad10.png","price":"¥1999"}
+        ]
+    },
+    {
+        "box":"box8",
+        "more":[
+            { "imgurl":[{
+                "imgur":"img/index/watch1.jpg",
+                "imgura":"img/index/kitchen1.png",
+                "imgurb":"img/index/parts1.jpg",
+                "imgurc":"img/index/parts1.jpg",
+                "imgurd":"img/index/parts1.jpg"
+                }]
+            },
+            {"title":"荣耀手表魔法系列","desc":"到手价699起 3期免息 ", 
+                "imgurl":[{
+                    "imgur":"img/index/watch2.png",
+                    "imgura":"img/index/kitchen2.png",
+                    "imgurb":"img/index/parts2.png",
+                    "imgurc":"img/index/parts2.png",
+                    "imgurd":"img/index/parts2.png"
+                    }],
+            "price":"¥799"},
+            {"title":"华为手环 B5","desc":"彩屏全触控 智能蓝牙耳机", 
+                "imgurl":[{
+                    "imgur":"img/index/watch3.png",
+                    "imgura":"img/index/kitchen3.png",
+                    "imgurb":"img/index/parts3.png",
+                    "imgurc":"img/index/parts3.png",
+                    "imgurd":"img/index/parts3.png"
+                    }],
+                    "price":"¥999"},
+            {"title":"荣耀手表梦幻系列","desc":"到手价699起 3期免息 ",     
+                "imgurl":[{
+                    "imgur":"img/index/watch4.png",
+                    "imgura":"img/index/kitchen4.png",
+                    "imgurb":"img/index/parts4.png",
+                    "imgurc":"img/index/parts4.png",
+                    "imgurd":"img/index/parts4.png"
+                    }],
+                    "price":"¥799"},
+            {"title":"华为儿童手表 3 Pro","desc":"4G全网通 高清拍照 ", 
+                "imgurl":[{
+                    "imgur":"img/index/watch5.png",
+                    "imgura":"img/index/kitchen5.png",
+                    "imgurb":"img/index/parts5.png",
+                    "imgurc":"img/index/parts5.png",
+                    "imgurd":"img/index/parts5.png"
+                    }],
+                    "price":"¥988"},
+            {"title":"荣耀手环 5","desc":"新品火热销售中", 
+                "imgurl":[{
+                    "imgur":"img/index/watch6.png",
+                    "imgura":"img/index/kitchen6.png",
+                    "imgurb":"img/index/parts6.png",
+                    "imgurc":"img/index/parts6.png",
+                    "imgurd":"img/index/parts6.png"
+                    }],
+                    "price":"¥189"},
+            {"title":"华为手环 3 Pro","desc":"独立GPS 彩屏健康手环", 
+                "imgurl":[{
+                    "imgur":"img/index/watch7.png",
+                    "imgura":"img/index/kitchen7.png",
+                    "imgurb":"img/index/parts7.png",
+                    "imgurc":"img/index/parts7.png",
+                    "imgurd":"img/index/parts7.png"
+                    }],
+                    "price":"¥399"},
+            {"title":"荣耀手环4","desc":"触控大彩屏 实时心率检测 ", 
+                "imgurl":[{
+                    "imgur":"img/index/watch8.png",
+                    "imgura":"img/index/kitchen8.png",
+                    "imgurb":"img/index/parts8.png",
+                    "imgurc":"img/index/parts8.png",
+                    "imgurd":"img/index/parts8.png"
+                    }],
+                    "price":"¥179"},
+            {"title":"华为儿童手表 3","desc":"精准定位 清晰通话 ", 
+                "imgurl":[{
+                    "imgur":"img/index/watch9.png",
+                    "imgura":"img/index/kitchen9.png",
+                    "imgurb":"img/index/parts9.png",
+                    "imgurc":"img/index/parts9.png",
+                    "imgurd":"img/index/parts9.png"
+                    }],
+                    "price":"¥398"}
+        ]
+    }
+]
+
