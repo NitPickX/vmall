@@ -4,6 +4,9 @@
 	right:120px;
 	top:10px;
 }
+a{
+	color: #000000;
+}
 .honor-header{
 	width:100%;
 }
@@ -63,7 +66,8 @@
 	background-image: url(../img/honorsearch.png);
 	border: none;
 	border-radius: 50%;
-	right:10px;
+	right:-15px;
+	top:0px;
 }
 .search-bar-key{
 	position: absolute;
@@ -400,6 +404,7 @@
 .price-amount{
 	font-size: 24px;
 	font-weight: 600;
+	line-height: 36px;
 }
 .grid-pic img{
 	width: 186px;
